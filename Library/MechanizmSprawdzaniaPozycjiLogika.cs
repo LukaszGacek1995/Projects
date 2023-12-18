@@ -6,22 +6,31 @@ using System.Threading.Tasks;
 
 namespace Library
 {
+
     internal class MechanizmSprawdzaniaPozycjiLogika
     {
+        public delegate List<string> LogikaDelegate(List<string> listaDaneZnakow, List<string> weryfikacjaKodow);
+        private LogikaDelegate logikaDelegate;
+
+        public MechanizmSprawdzaniaPozycjiLogika(LogikaDelegate logikaDelegate)
+        {
+            this.logikaDelegate = logikaDelegate;
+        }
+
         public List<string> GlownaLogika(List<int> listaParametrow)
         {
             List<string> listaWynikow = new List<string>();
             var n = listaParametrow[0];
             var k = listaParametrow[1];
 
-            List<string> listaDaneZanakow = DodanieZnakow(n);
+            List<string> listaDaneZnakow = DodanieZnakow(n);
 
             Console.WriteLine("Wprowadź teraz kody, które należy sprawdzić");
             List<string> weryfikacjaKodow = PorywnywanieElementow(k);
 
-            if (n != null && k != null)
+            if (n != 0 && k != 0)
             {
-                List<string> dostepneLubNie = ZwracanieDostepnosciKsiazek(listaDaneZanakow, weryfikacjaKodow);
+                List<string> dostepneLubNie = logikaDelegate(listaDaneZnakow, weryfikacjaKodow);
                 foreach (var iteracjaDodawanie in dostepneLubNie)
                 {
                     listaWynikow.Add(iteracjaDodawanie);
@@ -56,35 +65,6 @@ namespace Library
                 }
             }
             return listaKodowDoSprawdzenia;
-        }
-
-        private List<string> ZwracanieDostepnosciKsiazek(List<string> listaDaneZanakow, List<string> weryfikacjaKodow)
-        {
-            List<string> listaZwracajaca = new List<string>();
-
-            foreach (string iteracjaWeryfikacjaKodow in weryfikacjaKodow)
-            {
-                int count = 0;
-
-                foreach (string iteracjaListaDaneZanakow in listaDaneZanakow)
-                {
-                    if (string.Equals(iteracjaListaDaneZanakow, iteracjaWeryfikacjaKodow, StringComparison.OrdinalIgnoreCase))
-                    {
-                        count++;
-                    }
-                }
-
-                if (count > 0)
-                {
-                    listaZwracajaca.Add(count.ToString());
-                }
-                else
-                {
-                    listaZwracajaca.Add("BRAK");
-                }
-            }
-
-            return listaZwracajaca;
         }
     }
 }

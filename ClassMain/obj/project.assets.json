@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/Library.dll": {}
         }
+      },
+      "SzyfrMatematyczny/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SzyfrMatematyczny.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SzyfrMatematyczny.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../Library/Library.csproj",
       "msbuildProject": "../Library/Library.csproj"
+    },
+    "SzyfrMatematyczny/1.0.0": {
+      "type": "project",
+      "path": "../SzyfrMatematyczny/SzyfrMatematyczny.csproj",
+      "msbuildProject": "../SzyfrMatematyczny/SzyfrMatematyczny.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Library >= 1.0.0"
+      "Library >= 1.0.0",
+      "SzyfrMatematyczny >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +71,9 @@
           "projectReferences": {
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\Library.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\Library.csproj"
+            },
+            "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
+              "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj"
             }
           }
         }

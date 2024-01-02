@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Library\Library.csproj" />
-    <ProjectReference Include="..\SzyfrMatematyczny\SzyfrMatematyczny.csproj" />
-  </ItemGroup>
-
 </Project>

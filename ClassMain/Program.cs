@@ -15,6 +15,10 @@ public class Program
 {
     public static void Main()
      {
-        Library.UruchamianieProgramu.KlasaWywolujaca();
+        //1. Projekt - Library
+        //Library.UruchamianieProgramu.KlasaWywolujaca();
+
+        //2.Projekt - SzyfMatematyczny
+        SzyfMatematycznyProgram.Uruchamianie();
     }
 }

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "ClassMain/1.0.0": {
         "dependencies": {
-          "Library": "1.0.0"
+          "Library": "1.0.0",
+          "SzyfrMatematyczny": "1.0.0"
         },
         "runtime": {
           "ClassMain.dll": {}
@@ -17,6 +18,11 @@
       "Library/1.0.0": {
         "runtime": {
           "Library.dll": {}
+        }
+      },
+      "SzyfrMatematyczny/1.0.0": {
+        "runtime": {
+          "SzyfrMatematyczny.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SzyfrMatematyczny/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

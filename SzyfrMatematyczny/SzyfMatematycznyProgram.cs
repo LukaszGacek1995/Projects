@@ -21,7 +21,14 @@ public class SzyfMatematycznyProgram
         DaneNaSztywno daneNaSztywno = new DaneNaSztywno();
         daneNaSztywno.Alfabet();
 
+        rozszyfrowywanieKodu.RozszyfrowywanieZakonczone += HandleRozszyfrowanieZakonczone;
 
         rozszyfrowywanieKodu.Rozszyfrowyanie(wproadzanieDanychWejsciowych.ListaSzyftow,daneNaSztywno.SlownikWartosciNaSztywno);
+        Console.ReadKey();
+    }
+
+    private static void HandleRozszyfrowanieZakonczone(string wynik)
+    {
+        Console.WriteLine($"Rozzszyforwyanie zakończone, wynik: {wynik} ");
     }
 }

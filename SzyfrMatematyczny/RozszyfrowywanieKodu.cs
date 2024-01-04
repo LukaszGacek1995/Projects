@@ -28,9 +28,26 @@ namespace SzyfrMatematyczny
                 for (int i = 0; i < szyfrString.Length; i++)
                 {
                     string cyfra = szyfrString[i].ToString();
-                    int jednocyfrowaLiczba = int.Parse(cyfra);
+                    int jednocyfrowaLiczba;
+                    try
+                    {
+                         jednocyfrowaLiczba = int.Parse(cyfra);
+                    }
+                    catch(FormatException)
+                    {
+                        Console.WriteLine("Nieprawidłowy formatliczby w szyfsze, pomijam ją");
+                        continue;
+                    }
 
-                    PorownanieWartosci(jednocyfrowaLiczba, kolekcjaDanychNaSztywno);
+                    try
+                    {
+                        PorownanieWartosci(jednocyfrowaLiczba, kolekcjaDanychNaSztywno);
+                    }
+                    catch(KeyNotFoundException)
+                    {
+                        Console.WriteLine($"Brak klucza w kolekcji. Pomijam tę liczbę.");
+                        continue;
+                    }
                 }
             }
             string wynikLaczony = new string(wynikString.ToArray());

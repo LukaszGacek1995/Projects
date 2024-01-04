@@ -28,27 +28,34 @@ namespace SzyfrMatematyczny
                 Console.WriteLine("Wproadź liczbę zaszyfrowanych wiadomości");
                 
                 string wprowadz = Console.ReadLine();
+                try
+                {
 
-                if(int.TryParse(wprowadz, out wprowadzInt) && wprowadzInt > 0 && wprowadzInt <= 1000 && wprowadzInt != null)
-                { 
-
-                    flaga = true;
-                    int liczbazaszyfrowana = wprowadzInt;
-
-                    Console.WriteLine($"Wprowadź szyfr, tyle razy: {liczbazaszyfrowana}");
-
-                    for (int i = 0; i < liczbazaszyfrowana; i++)
+                    if (int.TryParse(wprowadz, out wprowadzInt) && wprowadzInt > 0 && wprowadzInt <= 1000 && wprowadzInt != null)
                     {
-                        string wprowadzanieSring = Console.ReadLine();
-                        string[] wprowadzanieTablica = wprowadzanieSring.Split(' ');
-                        int wprowadzanieTablicaint = int.Parse(wprowadzanieTablica[i]);
-                        listaSzyftow.Add(wprowadzanieTablicaint);
+
+                        flaga = true;
+                        int liczbazaszyfrowana = wprowadzInt;
+
+                        Console.WriteLine($"Wprowadź szyfr, tyle razy: {liczbazaszyfrowana}");
+
+                        for (int i = 0; i < liczbazaszyfrowana; i++)
+                        {
+                            string wprowadzanieSring = Console.ReadLine();
+                            string[] wprowadzanieTablica = wprowadzanieSring.Split(' ');
+                            int wprowadzanieTablicaint = int.Parse(wprowadzanieTablica[i]);
+                            listaSzyftow.Add(wprowadzanieTablicaint);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Wprowadzono wartość z poza zakresu, spróbuj jeszcze raz");
+                        continue;
                     }
                 }
-                else
+                catch(Exception ex)
                 {
-                    Console.WriteLine("Wprowadzono wartość z poza zakresu, spróbuj jeszcze raz");
-                    continue;
+                    Console.WriteLine($"Wystapił nieoczekiwany błąd {ex.Message}");
                 }
             }
         }

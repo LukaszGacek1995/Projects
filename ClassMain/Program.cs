@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WyscigBiedronek;
 
 public class Program
 {
@@ -20,5 +21,9 @@ public class Program
 
         //2.Projekt - SzyfMatematyczny
         SzyfMatematycznyProgram.Uruchamianie();
+
+        //3 Projekt - WyscigBiedronek
+        Uruchamianie.UruchamianieProgramu();
+
     }
 }

@@ -11,8 +11,10 @@ C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\ClassMain.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\Library.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\SzyfrMatematyczny.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\WyscigBiedronek.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\Library.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\SzyfrMatematyczny.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\WyscigBiedronek.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ClassMain.csproj.AssemblyReference.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ClassMain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ClassMain.AssemblyInfoInputs.cache
@@ -24,5 +26,3 @@ C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ClassMain.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ClassMain.genruntimeconfig.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ref\ClassMain.dll
-C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\WyscigBiedronek.dll
-C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\WyscigBiedronek.pdb

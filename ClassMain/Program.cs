@@ -20,7 +20,7 @@ public class Program
         //Library.UruchamianieProgramu.KlasaWywolujaca();
 
         //2.Projekt - SzyfMatematyczny
-        SzyfMatematycznyProgram.Uruchamianie();
+        //SzyfMatematycznyProgram.Uruchamianie();
 
         //3 Projekt - WyscigBiedronek
         Uruchamianie.UruchamianieProgramu();

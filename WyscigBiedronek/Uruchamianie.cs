@@ -15,12 +15,18 @@ namespace WyscigBiedronek
 
     public class Uruchamianie
     {
-        public static List<string> UruchamianieProgramu()
+        public static void UruchamianieProgramu()
         {
+            DaneWejsciowe daneWejsciowe = new DaneWejsciowe();
+            Tuple<int, List<Tuple<int, int, int>>, Tuple<int, int, int>> wejscieDane = daneWejsciowe.WprowadzDane();
 
-           List<string> programu = new List<string>();
 
-            return programu;
+            ObliczanieIleZostalo obliczanieIleZostalo = new ObliczanieIleZostalo();
+            int liczba = obliczanieIleZostalo.ObliczenieKoncowe(wejscieDane);
+
+
+            Console.WriteLine($"Maksymalna liczba biedronek pozostałych to {liczba}");
+            Console.ReadKey();
         }
 
     }

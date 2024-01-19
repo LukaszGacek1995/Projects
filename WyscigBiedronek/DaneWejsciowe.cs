@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace WyscigBiedronek
 {
-    internal class DaneWejsciowe
+    public  class DaneWejsciowe
     {
-        public void WprowadzDane()
+        public Tuple<int, List<Tuple<int, int, int>>, Tuple<int, int, int>> WprowadzDane()
         {
             //3
             List<Tuple<int, int, int>> wspolrzedneBiedronek = new List<Tuple<int, int, int>>();
@@ -23,8 +23,7 @@ namespace WyscigBiedronek
             string[] wspStringMety = Console.ReadLine().Split(' ');
             int[] wspIntMety = new int[wspStringMety.Length];
             //2
-            Tuple<int, int, int> wspolrzedneMety = new Tuple<int, int, int>(wspIntMety[0], wspIntMety[1], wspIntMety[2]);
-
+           
             if (wspStringMety.Length == 3)
             {
                 wspIntMety[0] = int.Parse(wspStringMety[0]);
@@ -35,6 +34,7 @@ namespace WyscigBiedronek
             {
                 Console.WriteLine("Wybrano zbytmało lub zbyt dużo cyfr, spróbuj ponowie wprowadzić wartości");
             }
+            Tuple<int, int, int> wspolrzedneMety = new Tuple<int, int, int>(wspIntMety[0], wspIntMety[1], wspIntMety[2]);
 
             Console.WriteLine("Wprowadz współrzędne startu biedronek");
 
@@ -59,9 +59,8 @@ namespace WyscigBiedronek
                 }
                 Tuple<int, int, int> dd = new Tuple<int, int, int>(wprowadzenieInt[0], wprowadzenieInt[1], wprowadzenieInt[2]);
             }
-            Tuple<int, List<Tuple<int, int, int>>, Tuple<int, int, int>> UczesnicyWspolrzeneMeta = new Tuple<int, List<Tuple<int, int, int>>, Tuple<int, int, int>>(liczbaBiedronek, wspolrzedneBiedronek, wspolrzedneMety);
-
+         Tuple<int, List<Tuple<int, int, int>>, Tuple<int, int, int>> UczesnicyWspolrzeneMeta = new Tuple<int, List<Tuple<int, int, int>>, Tuple<int, int, int>>(liczbaBiedronek, wspolrzedneBiedronek, wspolrzedneMety);
+         return UczesnicyWspolrzeneMeta;
         }
     }
 }
-

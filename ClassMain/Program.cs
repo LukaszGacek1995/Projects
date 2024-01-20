@@ -10,11 +10,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WyscigBiedronek;
 
 public class Program
 {
     public static void Main()
      {
-        Library.UruchamianieProgramu.KlasaWywolujaca();
+        //1. Projekt - Library
+        //Library.UruchamianieProgramu.KlasaWywolujaca();
+
+        //2.Projekt - SzyfMatematyczny
+        //SzyfMatematycznyProgram.Uruchamianie();
+
+        //3 Projekt - WyscigBiedronek
+        Uruchamianie.UruchamianieProgramu();
+
     }
 }

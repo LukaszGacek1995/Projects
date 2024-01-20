@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{47DAA087-0858-45D1-B1B2-69542D5D2727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMain", "ClassMain\ClassMain.csproj", "{FA3BFB68-716A-40F4-AC57-E4538A0EC972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMain", "ClassMain\ClassMain.csproj", "{FA3BFB68-716A-40F4-AC57-E4538A0EC972}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzyfrMatematyczny", "SzyfrMatematyczny\SzyfrMatematyczny.csproj", "{B49DA400-1ACF-4705-BB6A-BD71E3D00B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WyscigBiedronek", "WyscigBiedronek\WyscigBiedronek.csproj", "{C5A5ED15-6224-4619-8473-BE398B9EB0E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{FA3BFB68-716A-40F4-AC57-E4538A0EC972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA3BFB68-716A-40F4-AC57-E4538A0EC972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA3BFB68-716A-40F4-AC57-E4538A0EC972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49DA400-1ACF-4705-BB6A-BD71E3D00B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49DA400-1ACF-4705-BB6A-BD71E3D00B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49DA400-1ACF-4705-BB6A-BD71E3D00B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49DA400-1ACF-4705-BB6A-BD71E3D00B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A5ED15-6224-4619-8473-BE398B9EB0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A5ED15-6224-4619-8473-BE398B9EB0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A5ED15-6224-4619-8473-BE398B9EB0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A5ED15-6224-4619-8473-BE398B9EB0E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

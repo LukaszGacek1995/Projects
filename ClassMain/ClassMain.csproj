@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Library\Library.csproj" />
+    <ProjectReference Include="..\SzyfrMatematyczny\SzyfrMatematyczny.csproj" />
+    <ProjectReference Include="..\WyscigBiedronek\WyscigBiedronek.csproj" />
   </ItemGroup>
 
 </Project>

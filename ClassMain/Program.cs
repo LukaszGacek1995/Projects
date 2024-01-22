@@ -23,7 +23,10 @@ public class Program
         //SzyfMatematycznyProgram.Uruchamianie();
 
         //3 Projekt - WyscigBiedronek
-        Uruchamianie.UruchamianieProgramu();
+        //Uruchamianie.UruchamianieProgramu();
+
+        //4 Projekt - Autobus
+        Autobus.KlasaUruchomienie.Wlacz();
 
     }
 }

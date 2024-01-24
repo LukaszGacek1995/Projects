@@ -31,6 +31,8 @@ namespace Autobus
                 return null;
             }
 
+            Tuple<int, int, int> rozkladJazdy = RozkladJazdy(M);
+
             return listaDanychWejsciowych;
         }
 
@@ -62,7 +64,7 @@ namespace Autobus
             {
                 Console.WriteLine("Wprowadzona wartość przekracza dopuszczalny zakres. Spróbuj jeszcze raz.");
             }
-
+            
             return false;
         }
 
@@ -78,6 +80,30 @@ namespace Autobus
                 Console.WriteLine("Wprowadzono wartości z poza zakresu, spróbuj jeszcze raz");
                 return false;
             }
+        }
+
+        public List<Tuple<int,int,int>> RozkladJazdy(int M)
+        {
+            Console.WriteLine("Proszę wprowadzić rozkład jazdy");
+
+            Tuple<int, int, int> autobusRozklad = null;
+
+            for (int i = 0; i < M; i++)
+            {
+                string[] stringTuplaRozkladJazdy = Console.ReadLine().Split(' ');
+                int[] intTupleRozkladJazdy = new int[stringTuplaRozkladJazdy.Length];
+
+                for (int j = 0; j < M; j++)
+                {
+                    intTupleRozkladJazdy[j] = int.Parse(stringTuplaRozkladJazdy[j]);
+                }
+
+                var rozklad = new Tuple<int, int, int>(intTupleRozkladJazdy[0], intTupleRozkladJazdy[1], intTupleRozkladJazdy[2]);
+
+                autobusRozklad = rozklad;
+            }
+
+            return autobusRozklad;
         }
     }
 }

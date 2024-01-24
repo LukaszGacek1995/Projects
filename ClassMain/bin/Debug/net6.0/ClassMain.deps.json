@@ -8,12 +8,18 @@
     ".NETCoreApp,Version=v6.0": {
       "ClassMain/1.0.0": {
         "dependencies": {
+          "Autobus": "1.0.0",
           "Library": "1.0.0",
           "SzyfrMatematyczny": "1.0.0",
           "WyscigBiedronek": "1.0.0"
         },
         "runtime": {
           "ClassMain.dll": {}
+        }
+      },
+      "Autobus/1.0.0": {
+        "runtime": {
+          "Autobus.dll": {}
         }
       },
       "Library/1.0.0": {
@@ -35,6 +41,11 @@
   },
   "libraries": {
     "ClassMain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autobus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

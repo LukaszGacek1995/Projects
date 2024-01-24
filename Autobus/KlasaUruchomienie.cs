@@ -12,6 +12,18 @@ namespace Autobus
         public static void Wlacz()
         {
             DaneWejscioweWprowadzenie daneWejscioweWprowadzenie = new DaneWejscioweWprowadzenie();
+            List<int> daneWejscioweCztery = daneWejscioweWprowadzenie.Wprowadzenie();
+
+            int T1 = daneWejscioweWprowadzenie.T1;
+            int T2 = daneWejscioweWprowadzenie.T2;
+            int M = daneWejscioweWprowadzenie.M;
+            int N1 = daneWejscioweWprowadzenie.N1;
+            int N2 = daneWejscioweWprowadzenie.N2;
+
+           List<Tuple<int, int, int>> rozkladyJazdy = daneWejscioweWprowadzenie.RozkladJazdy(M);
+
+            ObliczaniePrzesiadek obliczaniePrzesiadek = new ObliczaniePrzesiadek();
+            obliczaniePrzesiadek.Przesiadki(daneWejscioweCztery, rozkladyJazdy);
 
 
         }

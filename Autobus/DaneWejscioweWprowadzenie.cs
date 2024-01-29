@@ -31,7 +31,7 @@ namespace Autobus
                 return null;
             }
 
-            Tuple<int, int, int> rozkladJazdy = RozkladJazdy(M);
+            List<Tuple<int, int, int>> rozkladJazdy = RozkladJazdy(M);
 
             return listaDanychWejsciowych;
         }
@@ -86,7 +86,8 @@ namespace Autobus
         {
             Console.WriteLine("Proszę wprowadzić rozkład jazdy");
 
-            Tuple<int, int, int> autobusRozklad = null;
+
+        List<Tuple<int, int, int>> rozkladyJazdy = new List<Tuple<int, int, int>>();
 
             for (int i = 0; i < M; i++)
             {
@@ -100,10 +101,10 @@ namespace Autobus
 
                 var rozklad = new Tuple<int, int, int>(intTupleRozkladJazdy[0], intTupleRozkladJazdy[1], intTupleRozkladJazdy[2]);
 
-                autobusRozklad = rozklad;
+                rozkladyJazdy.Add(rozklad);
             }
 
-            return autobusRozklad;
+            return rozkladyJazdy;       
         }
     }
 }

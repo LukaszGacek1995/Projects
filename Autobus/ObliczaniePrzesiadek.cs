@@ -19,7 +19,7 @@ namespace Autobus
 
             List<Tuple<int, int, int>> posortowaneRozkładu = rozkłady.OrderBy(z => z.Item1).ToList();
 
-            int najkrotszyCzas = int.MinValue;
+            int najkrotszyCzas = int.MaxValue;
 
             for (int i = 0; i < M; i++)
             {

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Autobus
 {
+    internal delegate void PrzesiadkiDelegat(List<int> danewejsioweCztery, List<Tuple<int, int, int>> rozkłady);
     public class KlasaUruchomienie
     {
         public static void Wlacz()
@@ -19,13 +20,12 @@ namespace Autobus
             int M = daneWejscioweWprowadzenie.M;
             int N1 = daneWejscioweWprowadzenie.N1;
             int N2 = daneWejscioweWprowadzenie.N2;
-
            List<Tuple<int, int, int>> rozkladyJazdy = daneWejscioweWprowadzenie.RozkladJazdy(M);
 
             ObliczaniePrzesiadek obliczaniePrzesiadek = new ObliczaniePrzesiadek();
-            obliczaniePrzesiadek.Przesiadki(daneWejscioweCztery, rozkladyJazdy);
-
-
+            PrzesiadkiDelegat przesiadkiDelegat = new PrzesiadkiDelegat(obliczaniePrzesiadek.Przesiadki);
+    
+            przesiadkiDelegat(daneWejscioweCztery, rozkladyJazdy);
         }
 
     }

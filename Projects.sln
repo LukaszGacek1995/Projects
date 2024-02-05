@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzyfrMatematyczny", "SzyfrM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WyscigBiedronek", "WyscigBiedronek\WyscigBiedronek.csproj", "{C5A5ED15-6224-4619-8473-BE398B9EB0E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autobus", "Autobus\Autobus.csproj", "{BC0CF843-00F2-4B7B-A3B9-9344084B070F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autobus", "Autobus\Autobus.csproj", "{BC0CF843-00F2-4B7B-A3B9-9344084B070F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Słodnik", "Słodnik\Słodnik.csproj", "{B7C805E4-A1B2-4A20-A68B-CD78E9D988C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BC0CF843-00F2-4B7B-A3B9-9344084B070F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC0CF843-00F2-4B7B-A3B9-9344084B070F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC0CF843-00F2-4B7B-A3B9-9344084B070F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C805E4-A1B2-4A20-A68B-CD78E9D988C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C805E4-A1B2-4A20-A68B-CD78E9D988C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C805E4-A1B2-4A20-A68B-CD78E9D988C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C805E4-A1B2-4A20-A68B-CD78E9D988C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

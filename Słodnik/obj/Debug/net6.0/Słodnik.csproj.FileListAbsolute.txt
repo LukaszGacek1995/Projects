@@ -1,0 +1,12 @@
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\bin\Debug\net6.0\Słodnik.deps.json
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\bin\Debug\net6.0\Słodnik.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\bin\Debug\net6.0\Słodnik.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\Słodnik.csproj.AssemblyReference.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\Słodnik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\Słodnik.AssemblyInfoInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\Słodnik.AssemblyInfo.cs
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\Słodnik.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\Słodnik.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\refint\Słodnik.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\Słodnik.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\Słodnik\obj\Debug\net6.0\ref\Słodnik.dll

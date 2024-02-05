@@ -32,6 +32,16 @@
           "bin/placeholder/SzyfrMatematyczny.dll": {}
         }
       },
+      "Słodnik/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Słodnik.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Słodnik.dll": {}
+        }
+      },
       "WyscigBiedronek/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -60,6 +70,11 @@
       "path": "../SzyfrMatematyczny/SzyfrMatematyczny.csproj",
       "msbuildProject": "../SzyfrMatematyczny/SzyfrMatematyczny.csproj"
     },
+    "Słodnik/1.0.0": {
+      "type": "project",
+      "path": "../Słodnik/Słodnik.csproj",
+      "msbuildProject": "../Słodnik/Słodnik.csproj"
+    },
     "WyscigBiedronek/1.0.0": {
       "type": "project",
       "path": "../WyscigBiedronek/WyscigBiedronek.csproj",
@@ -71,6 +86,7 @@
       "Autobus >= 1.0.0",
       "Library >= 1.0.0",
       "SzyfrMatematyczny >= 1.0.0",
+      "Słodnik >= 1.0.0",
       "WyscigBiedronek >= 1.0.0"
     ]
   },
@@ -109,6 +125,9 @@
             },
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj"
+            },
+            "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słodnik.csproj": {
+              "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słodnik.csproj"
             },
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj"

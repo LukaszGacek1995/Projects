@@ -27,6 +27,5 @@ namespace Autobus
     
             przesiadkiDelegat(daneWejscioweCztery, rozkladyJazdy);
         }
-
     }
 }

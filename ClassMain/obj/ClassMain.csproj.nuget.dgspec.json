@@ -92,8 +92,8 @@
               "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
                 "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj"
               },
-              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słodnik.csproj": {
-                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słodnik.csproj"
+              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj": {
+                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj"
               },
               "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
                 "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj"
@@ -240,12 +240,12 @@
         }
       }
     },
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słodnik.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słodnik.csproj",
-        "projectName": "Słodnik",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słodnik.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj",
+        "projectName": "Słownik",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\obj\\",
         "projectStyle": "PackageReference",

@@ -25,8 +25,10 @@ public class Program
         //3 Projekt - WyscigBiedronek
         //Uruchamianie.UruchamianieProgramu();
 
-        //4 Projekt - Autobus
-        Autobus.KlasaUruchomienie.Wlacz();
+        //4. Projekt - Autobus
+        //Autobus.KlasaUruchomienie.Wlacz();
 
+        //5. Projekt - Słownik
+        Słodnik.KlasaStartowaSłownika.UruchomSlownik();
     }
 }

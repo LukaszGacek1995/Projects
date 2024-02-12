@@ -27,6 +27,14 @@ namespace Słodnik
                 {
                     UsuwanieWartosci(komendy);
                 }
+                else if(komendyNormalizacyjne.StartsWith("Add ["))
+                {
+                    DodawanieZSufixem(komendy);
+                }
+                else
+                {
+                    Console.WriteLine("Nieznana komenda" + komendy);
+                }
             }
         }
 
@@ -48,6 +56,13 @@ namespace Słodnik
                 Console.WriteLine("Element do usunięcia nie istnieje w liście ");
             }
 
+        }
+        public void DodawanieZSufixem(string komendy)
+        {
+            int indexPoczatkowySuf = komendy.IndexOf("[") + 1;
+            int indexKoncowySuf = komendy.IndexOf("]");
+
+            int dlugoscSufixa = int.Parse(komendy.Substring(indexPoczatkowySuf, indexKoncowySuf - indexPoczatkowySuf));
         }
     }
 }

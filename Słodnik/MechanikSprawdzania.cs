@@ -8,41 +8,46 @@ namespace Słodnik
 {
     internal class MechanikSprawdzania
     {
-        public List<string> tablicaAdd { get; set; }
+        public List<string> tablicaZKomedami { get; set; }
 
 
         public void GlwonyMechanizmDzialania(List<string> tablicaKomend)
         {
-           List<string> listaADD = new List<string>();
-            
-           logikaPoczatkowychKomend(tablicaKomend);
-        }
+            tablicaZKomedami = new List<string>();
 
-        public void logikaPoczatkowychKomend(List<string> tablicaKomend)
-        {
-            string add = "add";
-            tablicaAdd = new List<string>();
-
-            
-
-            foreach (string s in tablicaKomend) 
+            foreach (string komendy in tablicaKomend)
             {
-                //Przeanalizować ten fragemnt kodu
-                int indexADD = s.IndexOf(add) + s.Length;
-                string pozostalyText = s.Substring(indexADD).Trim();
-                //--------
-                if (s.Contains(add))
-                {
-                    tablicaAdd.Add(pozostalyText);
-                }
+                string komendyNormalizacyjne = komendy.ToLowerInvariant();
 
+                if (komendyNormalizacyjne.StartsWith("add"))
+                {
+                    DodawanieWartosci(komendy);
+                }
+                else if(komendyNormalizacyjne.StartsWith("delete"))
+                {
+                    UsuwanieWartosci(komendy);
+                }
             }
         }
 
-        public static void MetodaTablic()
+        public void DodawanieWartosci(string komendy)
         {
-
+            string wartoscDodawana = komendy.Substring(3).Trim();
+            tablicaZKomedami.Add(wartoscDodawana);
         }
 
+        public void UsuwanieWartosci(string komendy)
+        {
+            string wartosci = komendy.Substring(6).Trim();
+            if(tablicaZKomedami.Contains(wartosci))
+            {
+                tablicaZKomedami.Remove(wartosci);
+            }
+            else
+            {
+                Console.WriteLine("Element do usunięcia nie istnieje w liście ");
+            }
+
+        }
     }
 }

@@ -11,7 +11,7 @@
           "Autobus": "1.0.0",
           "Library": "1.0.0",
           "SzyfrMatematyczny": "1.0.0",
-          "Słodnik": "1.0.0",
+          "Słownik": "1.0.0",
           "WyscigBiedronek": "1.0.0"
         },
         "runtime": {
@@ -33,9 +33,9 @@
           "SzyfrMatematyczny.dll": {}
         }
       },
-      "Słodnik/1.0.0": {
+      "Słownik/1.0.0": {
         "runtime": {
-          "Słodnik.dll": {}
+          "Słownik.dll": {}
         }
       },
       "WyscigBiedronek/1.0.0": {
@@ -66,7 +66,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Słodnik/1.0.0": {
+    "Słownik/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

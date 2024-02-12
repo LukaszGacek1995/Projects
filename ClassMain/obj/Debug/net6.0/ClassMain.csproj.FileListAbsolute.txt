@@ -28,5 +28,5 @@ C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ref\ClassMain.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\Autobus.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\Autobus.pdb
-C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\Słodnik.dll
-C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\Słodnik.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\Słownik.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\bin\Debug\net6.0\Słownik.pdb

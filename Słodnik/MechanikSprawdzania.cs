@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Reflection.PortableExecutable;
 using System.Text;
@@ -11,6 +12,7 @@ namespace Słodnik
     {
         public List<string> tablicaZKomedami { get; set; }
         private string ostatnieDodaneSłowo;
+        List<string> listaSlowMiedzyWprowadzonymi;
 
 
         public void GlwonyMechanizmDzialania(List<string> tablicaKomend)
@@ -25,21 +27,25 @@ namespace Słodnik
                 {
                     DodawanieWartosci(komendy);
                 }
-                else if(komendyNormalizacyjne.StartsWith("delete"))
+                else if (komendyNormalizacyjne.StartsWith("delete"))
                 {
                     UsuwanieWartosci(komendy);
                 }
-                else if(komendyNormalizacyjne.Contains("add ["))
+                else if (komendyNormalizacyjne.Contains("add ["))
                 {
                     DodawanieZSufixem(komendy);
                 }
-                else if(komendyNormalizacyjne.StartsWith("count"))
+                else if (komendyNormalizacyjne.StartsWith("count"))
                 {
                     WyliczanieLeksykograficzne(komendy);
                 }
-                else if(komendyNormalizacyjne.StartsWith("list"))
+                else if (komendyNormalizacyjne.StartsWith("list"))
                 {
-                    WypisywanieSlowLeksykograficznie(komendy);
+                    WypisywanieSlowLeksykograficznie(komendyNormalizacyjne);
+                }
+                else if(komendyNormalizacyjne.StartsWith("show"))
+                {
+                    WypisanieKonkretnegosłowa(komendy);
                 }
                 else
                 {
@@ -47,6 +53,8 @@ namespace Słodnik
                 }
             }
         }
+
+        
 
         public void DodawanieWartosci(string komendy)
         {
@@ -58,7 +66,7 @@ namespace Słodnik
         public void UsuwanieWartosci(string komendy)
         {
             string wartosci = komendy.Substring(6).Trim();
-            if(tablicaZKomedami.Contains(wartosci))
+            if (tablicaZKomedami.Contains(wartosci))
             {
                 tablicaZKomedami.Remove(wartosci);
             }
@@ -75,7 +83,7 @@ namespace Słodnik
             int dlugoscSufixa = int.Parse(komendy.Substring(indexPoczatkowySuf, indexKoncowySuf - indexPoczatkowySuf));
 
             string suffix = komendy.Substring(indexKoncowySuf + 1).Trim();
-            if (ostatnieDodaneSłowo != null && dlugoscSufixa <ostatnieDodaneSłowo.Length)
+            if (ostatnieDodaneSłowo != null && dlugoscSufixa < ostatnieDodaneSłowo.Length)
             {
                 string poczatkoweLitery = ostatnieDodaneSłowo.Substring(0, dlugoscSufixa);
                 string noweSłowo = poczatkoweLitery + suffix;
@@ -94,18 +102,46 @@ namespace Słodnik
             string slowoKoncowe = slowa[1];
 
             int count = 0;
-            for(int i=0; i<tablicaZKomedami.Count; i++)
+
+            for (int i = 0; i < tablicaZKomedami.Count; i++)
             {
-                if(string.Compare(tablicaZKomedami[i], slowoPoczatkowe) > 0 && string.Compare(tablicaZKomedami[i], slowoKoncowe) < 0)
+                if (string.Compare(tablicaZKomedami[i], slowoPoczatkowe) > 0 && string.Compare(tablicaZKomedami[i], slowoKoncowe) < 0)
                 {
                     count++;
                 }
             }
             tablicaZKomedami.Add(count.ToString());
         }
-        public void WypisywanieSlowLeksykograficznie(string komendy)
+        public void WypisywanieSlowLeksykograficznie(string komendaNormalizacji)
         {
-            // UZUPEŁNIĆ
+            listaSlowMiedzyWprowadzonymi = new List<string>();
+
+            string[] slowaPierwszeOrazDrugie = komendaNormalizacji.Substring(5).Split(' ');
+            string pierwszeSlowo = slowaPierwszeOrazDrugie[0];
+            string drugieSlowo = slowaPierwszeOrazDrugie[1];
+
+            for(int i =0; i< tablicaZKomedami.Count; i++)
+            {
+                if (string.Compare(tablicaZKomedami[i], pierwszeSlowo) > 0 && string.Compare(tablicaZKomedami[i], drugieSlowo) <0)
+                {
+                    listaSlowMiedzyWprowadzonymi.Add(tablicaZKomedami[i]);
+                }
+            }
+        }
+        private void WypisanieKonkretnegosłowa(string komendy)
+        {
+            int numerSlowa = int.Parse(komendy.Substring(4));
+
+            List<string> posortowanaLista = tablicaZKomedami.OrderBy(x =>x).ToList();
+
+            if (numerSlowa > 0 && numerSlowa <= posortowanaLista.Count)
+            {
+                Console.WriteLine(posortowanaLista[numerSlowa - 1]);
+            }
+            else
+            {
+                Console.WriteLine("Niepoprawny nuemr ");
+            }
         }
     }
 }

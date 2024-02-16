@@ -19,6 +19,16 @@ namespace Słodnik
 
             MechanikSprawdzania mechanikSprawdzania = new MechanikSprawdzania();
             mechanikSprawdzania.GlwonyMechanizmDzialania(tablicaKomend);
+
+            List<string> tablicaZWynikami = mechanikSprawdzania.tablicaZKomedami;
+
+            foreach (string s in tablicaZWynikami)
+            {
+                Console.WriteLine("");
+                Console.WriteLine("Wyniki poniżej");
+                Console.WriteLine($"{s}");
+            }
+            Console.ReadKey();
         }
     }
 }

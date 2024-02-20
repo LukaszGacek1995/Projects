@@ -14,7 +14,7 @@ namespace Słodnik
         {
             WproadzDane wproadzDane = new WproadzDane();
             wproadzDane.Dane();
-
+         
             List<string> tablicaKomend = wproadzDane.listaWprowadzonychKomend;
 
             MechanikSprawdzania mechanikSprawdzania = new MechanikSprawdzania();
@@ -22,10 +22,11 @@ namespace Słodnik
 
             List<string> tablicaZWynikami = mechanikSprawdzania.tablicaZKomedami;
 
+            Console.WriteLine("");
+            Console.WriteLine("Wyniki poniżej");
+
             foreach (string s in tablicaZWynikami)
             {
-                Console.WriteLine("");
-                Console.WriteLine("Wyniki poniżej");
                 Console.WriteLine($"{s}");
             }
             Console.ReadKey();

@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace Słodnik
 {
+    public delegate void KomendyDelgatu(string komenda);
+
     internal class WproadzDane
     {
-        public int liczbapolecen { get; set; }
-        public List<string> listaWprowadzonychKomend { get; set; }
+        public int LiczbaPolecen { get; set; }
+        public List<string> ListaWprowadzonychKomend { get; set; }
+
+        public KomendyDelgatu KomendyDelegatu;
+
+        public void UstawienieObslugiKomendy(KomendyDelgatu komendyDelegatu)
+        {
+            this.KomendyDelegatu = komendyDelegatu;
+        }
 
         public void Dane()
         {
@@ -18,29 +27,30 @@ namespace Słodnik
             while (flagaPonowienia)
             {
                 Console.WriteLine("Wprowadź liczbę poleceń");
-                liczbapolecen = int.Parse(Console.ReadLine());
-                if (liczbapolecen > 0 && liczbapolecen < 10000)
+                LiczbaPolecen = int.Parse(Console.ReadLine());
+                if (LiczbaPolecen > 0 && LiczbaPolecen < 10000)
                 {
                     Komendy();
                     flagaPonowienia = false;
                 }
                 else
                 {
-                    Console.WriteLine("Prekroczono zakres - wprowadź ponowenie");
+                    Console.WriteLine("Prekroczono zakres - wprowadź ponownie");
                 }
             }
         }
 
         public void Komendy()
         {
-            Console.WriteLine("Wprowadz Komendy");
+            Console.WriteLine("Wprowadź Komendy");
 
-            listaWprowadzonychKomend = new List<string>();
+            ListaWprowadzonychKomend = new List<string>();
 
-            for (int i = 0; i < liczbapolecen; i++)
+            for (int i = 0; i < LiczbaPolecen; i++)
             {
                 string wprowadzonaWartosc = Console.ReadLine();
-                listaWprowadzonychKomend.Add(wprowadzonaWartosc);
+                ListaWprowadzonychKomend.Add(wprowadzonaWartosc);
+                KomendyDelegatu?.Invoke(wprowadzonaWartosc);
             }
         }
     }

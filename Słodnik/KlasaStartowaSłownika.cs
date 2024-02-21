@@ -13,19 +13,22 @@ namespace Słodnik
         public static void UruchomSlownik()
         {
             WproadzDane wproadzDane = new WproadzDane();
-            wproadzDane.Dane();
-         
-            List<string> tablicaKomend = wproadzDane.listaWprowadzonychKomend;
-
             MechanikSprawdzania mechanikSprawdzania = new MechanikSprawdzania();
-            mechanikSprawdzania.GlwonyMechanizmDzialania(tablicaKomend);
 
-            List<string> tablicaZWynikami = mechanikSprawdzania.tablicaZKomedami;
+            wproadzDane.UstawienieObslugiKomendy(mechanikSprawdzania.ObslugaKomendy);
+
+            wproadzDane.Dane();
+
+            List<string> tablicaKomend = wproadzDane.ListaWprowadzonychKomend;
+
+            mechanikSprawdzania.TablicaZKomedami = new List<string>();
+
+            mechanikSprawdzania.ObslugaKomendy(tablicaKomend[0]);
 
             Console.WriteLine("");
             Console.WriteLine("Wyniki poniżej");
 
-            foreach (string s in tablicaZWynikami)
+            foreach (string s in mechanikSprawdzania.TablicaZKomedami)
             {
                 Console.WriteLine($"{s}");
             }

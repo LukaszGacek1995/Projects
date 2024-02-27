@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Autobus\Autobus.csproj" />
+    <ProjectReference Include="..\GrupowanieKontaktow\GrupowanieKontaktow.csproj" />
     <ProjectReference Include="..\Library\Library.csproj" />
     <ProjectReference Include="..\SzyfrMatematyczny\SzyfrMatematyczny.csproj" />
     <ProjectReference Include="..\Słodnik\Słownik.csproj" />

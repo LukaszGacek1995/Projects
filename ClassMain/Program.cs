@@ -29,6 +29,9 @@ public class Program
         //Autobus.KlasaUruchomienie.Wlacz();
 
         //5. Projekt - Słownik
-        Słodnik.KlasaStartowaSłownika.UruchomSlownik();
+        //Słodnik.KlasaStartowaSłownika.UruchomSlownik();
+
+        // 6. Projekt - Grupowanie Konraktów
+        GrupowanieKontaktow.KlasaUruchomieniowa.UruchomProgrma();
     }
 }

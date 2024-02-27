@@ -9,6 +9,7 @@
       "ClassMain/1.0.0": {
         "dependencies": {
           "Autobus": "1.0.0",
+          "GrupowanieKontaktow": "1.0.0",
           "Library": "1.0.0",
           "SzyfrMatematyczny": "1.0.0",
           "Słownik": "1.0.0",
@@ -21,6 +22,11 @@
       "Autobus/1.0.0": {
         "runtime": {
           "Autobus.dll": {}
+        }
+      },
+      "GrupowanieKontaktow/1.0.0": {
+        "runtime": {
+          "GrupowanieKontaktow.dll": {}
         }
       },
       "Library/1.0.0": {
@@ -52,6 +58,11 @@
       "sha512": ""
     },
     "Autobus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GrupowanieKontaktow/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,12 @@
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\bin\Debug\net6.0\GrupowanieKontaktow.deps.json
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\bin\Debug\net6.0\GrupowanieKontaktow.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\bin\Debug\net6.0\GrupowanieKontaktow.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\GrupowanieKontaktow.csproj.AssemblyReference.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\GrupowanieKontaktow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\GrupowanieKontaktow.AssemblyInfoInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\GrupowanieKontaktow.AssemblyInfo.cs
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\GrupowanieKontaktow.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\GrupowanieKontaktow.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\refint\GrupowanieKontaktow.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\GrupowanieKontaktow.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\Projects\GrupowanieKontaktow\obj\Debug\net6.0\ref\GrupowanieKontaktow.dll

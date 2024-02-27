@@ -12,6 +12,16 @@
           "bin/placeholder/Autobus.dll": {}
         }
       },
+      "GrupowanieKontaktow/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GrupowanieKontaktow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrupowanieKontaktow.dll": {}
+        }
+      },
       "Library/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -60,6 +70,11 @@
       "path": "../Autobus/Autobus.csproj",
       "msbuildProject": "../Autobus/Autobus.csproj"
     },
+    "GrupowanieKontaktow/1.0.0": {
+      "type": "project",
+      "path": "../GrupowanieKontaktow/GrupowanieKontaktow.csproj",
+      "msbuildProject": "../GrupowanieKontaktow/GrupowanieKontaktow.csproj"
+    },
     "Library/1.0.0": {
       "type": "project",
       "path": "../Library/Library.csproj",
@@ -84,6 +99,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Autobus >= 1.0.0",
+      "GrupowanieKontaktow >= 1.0.0",
       "Library >= 1.0.0",
       "SzyfrMatematyczny >= 1.0.0",
       "Słownik >= 1.0.0",
@@ -119,6 +135,9 @@
           "projectReferences": {
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Autobus\\Autobus.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Autobus\\Autobus.csproj"
+            },
+            "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj": {
+              "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj"
             },
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\Library.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\Library.csproj"

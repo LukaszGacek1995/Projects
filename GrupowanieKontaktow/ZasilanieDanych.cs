@@ -9,49 +9,48 @@ namespace GrupowanieKontaktow
 {
     public class ZasilanieDanych
     {
-        public Dictionary<string, int[]> slownikImieLiczby;
-        public int N { get; set; }
-        public int M { get; set; }
-
-
         public Dictionary<string, int[]> DaneWejsciowe()
         {
             Console.WriteLine("Wprowadź długość listy kontaktów oraz ilość grup (oddzielone spacją, maksymalnie 1000 i 500)");
 
-            int count = 0;
+            Dictionary<string, int[]> slownikImieLiczby = new Dictionary<string, int[]>();
 
-            slownikImieLiczby = new Dictionary<string, int[]>();
-
-            while (count < 20)
+            while (true)
             {
-                string[] wprowadzoneWartosci = Console.ReadLine().Trim().Split(' ');
-
-                N = int.Parse(wprowadzoneWartosci[0]);
-                M = int.Parse(wprowadzoneWartosci[1]);
-
-                if (N == 0 && M == 0)
+                string[] wprowadzoneWartosci;
+                try
                 {
-                    Console.WriteLine("Wybrano wartości 0 dla N i M - zakończenie testów");
-                    break;
-                }
+                    wprowadzoneWartosci = Console.ReadLine().Trim().Split(' ');
+                    if (wprowadzoneWartosci.Length < 2)
+                    {
+                        Console.WriteLine("Wprowadzono zbyt mało wartości");
+                        continue;
+                    }
 
-                if (N > 1000 || M > 500)
+                    int N = int.Parse(wprowadzoneWartosci[0]);
+                    int M = int.Parse(wprowadzoneWartosci[1]);
+
+                    if (N == 0 && M == 0)
+                    {
+                        Console.WriteLine("Zakończono testy.");
+                        break;
+                    }
+
+                    if (N > 1000 || M > 500)
+                    {
+                        Console.WriteLine("Przekroczono maksymalny rozmiar dla N lub M. Wprowadź ponownie.");
+                        continue;
+                    }
+
+                    for (int i = 0; i < N; i++)
+                    {
+                        DzialanieJednegoTestu(slownikImieLiczby);
+                    }
+                }
+                catch (FormatException)
                 {
-                    Console.WriteLine("Przekroczono maksymalny rozmiar dla N lub M. Wprowadź ponownie.");
-                    continue;
+                    Console.WriteLine("Błędne dane wejściowe. Spróbuj ponownie.");
                 }
-
-                for (int i = 0; i < N; i++)
-                {
-                    DzialanieJednegoTestu(slownikImieLiczby);
-                }
-
-                count++;
-            }
-
-            if (count >= 20)
-            {
-                Console.WriteLine("Osiągnięto limit 20 testów.");
             }
 
             return slownikImieLiczby;
@@ -60,25 +59,17 @@ namespace GrupowanieKontaktow
         {
             string input = Console.ReadLine();
 
-            string[] imieOrazCyfry = input.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries );
+            string[] imieOrazCyfry = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-            if(imieOrazCyfry.Length <2)
-            {
-                Console.WriteLine("Wprowadzono zbyt mało wartości");
-                return;
-            }
-            
-           
             string imie = imieOrazCyfry[0];
 
             int[] cyfryPoImieniu = new int[imieOrazCyfry.Length - 1];
 
             for (int i = 1; i < imieOrazCyfry.Length; i++)
             {
-
-                if (!int.TryParse(imieOrazCyfry[i], out cyfryPoImieniu[i - 1] ))
+                if (!int.TryParse(imieOrazCyfry[i], out cyfryPoImieniu[i - 1]))
                 {
-                    Console.WriteLine("Błędne dane wejsiowe");
+                    Console.WriteLine("Błędne dane wejściowe");
                     return;
                 }
             }

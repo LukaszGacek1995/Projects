@@ -8,20 +8,17 @@ namespace GrupowanieKontaktow
 {
     public class WeryfikacjaOrazTworzenieGrup
     {
-        public ZasilanieDanych zasilanieDanych { get; set; }
+        private Dictionary<string, int[]> slownikDane;
 
-        public void MechanizmPrzydzielaniaGrup()
+        public WeryfikacjaOrazTworzenieGrup(Dictionary<string, int[]> dane)
         {
-            Dictionary<string, int[]> slownikDane = zasilanieDanych.slownikImieLiczby;
-
-            MechanizmLiczeniaNajwiekszejGrupy();
+            slownikDane = dane;
         }
-
 
         public int MechanizmLiczeniaNajwiekszejGrupy()
         {
             Dictionary<int, List<string>> slownikZKluczemPo = new Dictionary<int, List<string>>();
-            foreach (var kontakt in zasilanieDanych.slownikImieLiczby)
+            foreach (var kontakt in slownikDane)
             {
                 string osoba = kontakt.Key;
                 int[] grupy = kontakt.Value;
@@ -35,8 +32,9 @@ namespace GrupowanieKontaktow
                     slownikZKluczemPo[grupa].Add(osoba);
                 }
             }
+
             int dolnaGranica = 1;
-            int golrnaGrnica = zasilanieDanych.N;
+            int golrnaGrnica = slownikDane.Count;
             int minimalnaLiczbaOsobWNajwiekszejGrupie = golrnaGrnica;
 
             while (dolnaGranica <= golrnaGrnica)

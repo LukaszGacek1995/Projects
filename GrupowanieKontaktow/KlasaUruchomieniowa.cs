@@ -10,6 +10,11 @@
 
             WeryfikacjaOrazTworzenieGrup weryfikacjaOrazTworzenieGrup = new WeryfikacjaOrazTworzenieGrup();
             weryfikacjaOrazTworzenieGrup.MechanizmPrzydzielaniaGrup();
+           int wynik = weryfikacjaOrazTworzenieGrup.MechanizmLiczeniaNajwiekszejGrupy();
+
+            Console.Write(wynik);
+
+            Console.ReadKey();
         }
     }
 }

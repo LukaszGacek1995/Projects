@@ -58,15 +58,29 @@ namespace GrupowanieKontaktow
         }
         public void DzialanieJednegoTestu(Dictionary<string, int[]> slownikImieLiczby)
         {
+            string input = Console.ReadLine();
+
+            string[] imieOrazCyfry = input.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries );
+
+            if(imieOrazCyfry.Length <2)
+            {
+                Console.WriteLine("Wprowadzono zbyt mało wartości");
+                return;
+            }
             
-            string[] imieOrazCyfry = Console.ReadLine().Split(' ');
+           
             string imie = imieOrazCyfry[0];
 
             int[] cyfryPoImieniu = new int[imieOrazCyfry.Length - 1];
 
             for (int i = 1; i < imieOrazCyfry.Length; i++)
             {
-                cyfryPoImieniu[i - 1] = int.Parse(imieOrazCyfry[i]);
+
+                if (!int.TryParse(imieOrazCyfry[i], out cyfryPoImieniu[i - 1] ))
+                {
+                    Console.WriteLine("Błędne dane wejsiowe");
+                    return;
+                }
             }
 
             slownikImieLiczby.Add(imie, cyfryPoImieniu);

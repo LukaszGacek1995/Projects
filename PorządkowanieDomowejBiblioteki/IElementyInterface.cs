@@ -8,5 +8,6 @@ namespace PorządkowanieDomowejBiblioteki
 {
     internal interface IElementyInterface
     {
+
     }
 }

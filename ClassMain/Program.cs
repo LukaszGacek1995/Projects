@@ -33,5 +33,9 @@ public class Program
 
         // 6. Projekt - Grupowanie Konraktów
         GrupowanieKontaktow.KlasaUruchomieniowa.UruchomProgrma();
+
+        // 7.Porządkowanie domowej biblioteczki
+        PorządkowanieDomowejBiblioteki.KlasaStartowa.UruchomProgram();
+
     }
 }

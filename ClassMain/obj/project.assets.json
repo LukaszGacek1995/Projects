@@ -32,6 +32,16 @@
           "bin/placeholder/Library.dll": {}
         }
       },
+      "PorządkowanieDomowejBiblioteki/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PorządkowanieDomowejBiblioteki.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PorządkowanieDomowejBiblioteki.dll": {}
+        }
+      },
       "SzyfrMatematyczny/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -80,6 +90,11 @@
       "path": "../Library/Library.csproj",
       "msbuildProject": "../Library/Library.csproj"
     },
+    "PorządkowanieDomowejBiblioteki/1.0.0": {
+      "type": "project",
+      "path": "../PorządkowanieDomowejBiblioteki/PorządkowanieDomowejBiblioteki.csproj",
+      "msbuildProject": "../PorządkowanieDomowejBiblioteki/PorządkowanieDomowejBiblioteki.csproj"
+    },
     "SzyfrMatematyczny/1.0.0": {
       "type": "project",
       "path": "../SzyfrMatematyczny/SzyfrMatematyczny.csproj",
@@ -101,6 +116,7 @@
       "Autobus >= 1.0.0",
       "GrupowanieKontaktow >= 1.0.0",
       "Library >= 1.0.0",
+      "PorządkowanieDomowejBiblioteki >= 1.0.0",
       "SzyfrMatematyczny >= 1.0.0",
       "Słownik >= 1.0.0",
       "WyscigBiedronek >= 1.0.0"
@@ -141,6 +157,9 @@
             },
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\Library.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\Library.csproj"
+            },
+            "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj": {
+              "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj"
             },
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj"

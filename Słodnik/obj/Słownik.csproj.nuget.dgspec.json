@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj": {}
+    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj": {
+    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj",
         "projectName": "Słownik",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\Słownik.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Słodnik\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

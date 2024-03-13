@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\Library.csproj",
+      "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\Library.csproj",
       "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\Library\\obj\\",
+      "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

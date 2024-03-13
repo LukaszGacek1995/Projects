@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
       "projectName": "SzyfrMatematyczny",
-      "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
+      "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
       "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\SzyfrMatematyczny\\obj\\",
+      "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -18,6 +18,7 @@ namespace GrupowanieKontaktow
         }
 
 
+
         public int MechanizmLiczeniaNajwiekszejGrupy()
         {
             Dictionary<int, List<string>> slownikZKluczemPo = new Dictionary<int, List<string>>();

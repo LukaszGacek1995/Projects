@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\ClassMain\\ClassMain.csproj": {}
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\ClassMain\\ClassMain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Autobus\\Autobus.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Autobus\\Autobus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Autobus\\Autobus.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Autobus\\Autobus.csproj",
         "projectName": "Autobus",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Autobus\\Autobus.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Autobus\\Autobus.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Autobus\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Autobus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\ClassMain\\ClassMain.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\ClassMain\\ClassMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\ClassMain\\ClassMain.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\ClassMain\\ClassMain.csproj",
         "projectName": "ClassMain",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\ClassMain\\ClassMain.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\ClassMain\\ClassMain.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\ClassMain\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\ClassMain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,23 +83,26 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Autobus\\Autobus.csproj": {
-                "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Autobus\\Autobus.csproj"
+              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Autobus\\Autobus.csproj": {
+                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Autobus\\Autobus.csproj"
               },
-              "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj": {
-                "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj"
+              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj": {
+                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj"
               },
-              "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\Library.csproj": {
-                "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\Library.csproj"
+              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj": {
+                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj"
               },
-              "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
-                "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj"
+              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj": {
+                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj"
               },
-              "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj": {
-                "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj"
+              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
+                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj"
               },
-              "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
-                "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj"
+              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Słodnik\\Słownik.csproj": {
+                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Słodnik\\Słownik.csproj"
+              },
+              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
+                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj"
               }
             }
           }
@@ -133,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
         "projectName": "GrupowanieKontaktow",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\GrupowanieKontaktow\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -188,14 +191,14 @@
         }
       }
     },
-    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\Library.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -243,14 +246,69 @@
         }
       }
     },
-    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj",
+        "projectName": "PorządkowanieDomowejBiblioteki",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj",
+        "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
         "projectName": "SzyfrMatematyczny",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -298,14 +356,14 @@
         }
       }
     },
-    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Słodnik\\Słownik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Słodnik\\Słownik.csproj",
         "projectName": "Słownik",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\Słownik.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Słodnik\\Słownik.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Słodnik\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -353,14 +411,14 @@
         }
       }
     },
-    "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
         "projectName": "WyscigBiedronek",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\WyscigBiedronek\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

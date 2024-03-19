@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj": {}
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
-        "projectName": "GrupowanieKontaktow",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj",
+        "projectName": "PorządkowanieDomowejBiblioteki",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autobus", "Autobus\Autobus.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Słownik", "Słodnik\Słownik.csproj", "{B7C805E4-A1B2-4A20-A68B-CD78E9D988C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrupowanieKontaktow", "GrupowanieKontaktow\GrupowanieKontaktow.csproj", "{52270C59-40E3-4491-BC1A-91D919E40FA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrupowanieKontaktow", "GrupowanieKontaktow\GrupowanieKontaktow.csproj", "{52270C59-40E3-4491-BC1A-91D919E40FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PorządkowanieDomowejBiblioteki", "PorządkowanieDomowejBiblioteki\PorządkowanieDomowejBiblioteki.csproj", "{E3A08FC2-4CE0-47EA-82B3-3EC9329164A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{52270C59-40E3-4491-BC1A-91D919E40FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52270C59-40E3-4491-BC1A-91D919E40FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52270C59-40E3-4491-BC1A-91D919E40FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A08FC2-4CE0-47EA-82B3-3EC9329164A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A08FC2-4CE0-47EA-82B3-3EC9329164A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A08FC2-4CE0-47EA-82B3-3EC9329164A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A08FC2-4CE0-47EA-82B3-3EC9329164A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

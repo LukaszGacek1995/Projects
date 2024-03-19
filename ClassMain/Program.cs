@@ -32,6 +32,10 @@ public class Program
         //Słodnik.KlasaStartowaSłownika.UruchomSlownik();
 
         // 6. Projekt - Grupowanie Konraktów
-        GrupowanieKontaktow.KlasaUruchomieniowa.UruchomProgrma();
+        //GrupowanieKontaktow.KlasaUruchomieniowa.UruchomProgrma();
+
+        // 7. Projekt - Porządkowanie Domowej Bibjioteki
+        PorządkowanieDomowejBiblioteki.KlasaStartowa.UruchomProgram();
+       
     }
 }

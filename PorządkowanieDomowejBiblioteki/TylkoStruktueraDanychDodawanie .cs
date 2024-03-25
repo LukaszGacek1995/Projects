@@ -7,8 +7,16 @@ using System.Threading.Tasks;
 namespace PorządkowanieDomowejBiblioteki
 {
     //----------------------- DOPISAĆ DZIEDZICZENIE-----------------------------
-    public class TylkoStruktueraDanychDodawanie :  IElementyInterface
+
+    public delegate void Delegat(string dane);
+
+    public class TylkoStruktueraDanychDodawanie : IElementyInterface
     {
+
+        public delegate void DelegatoDoEventuOUzupełnieniu();
+        public event DelegatoDoEventuOUzupełnieniu eventPowiadomienieOUzupelnieniu;
+
+
         public int liczbaKsiazek { get; set; }
         public Dictionary<string, Tuple<int, int>> SlownikDanych { get; set; }
         public int liczbaTestow { get; set; }
@@ -17,20 +25,24 @@ namespace PorządkowanieDomowejBiblioteki
         public bool flaga2 = false;
 
 
+        public TylkoStruktueraDanychDodawanie()
+        {
+            SlownikDanych = new Dictionary<string, Tuple<int, int>>();
+        }
         public void WprowadzDane()
         {
 
             Console.WriteLine("Wprowadz liczbę przypadków testowych");
             while (!flaga)
             {
-                 liczbaTestow = int.Parse(Console.ReadLine());
+                liczbaTestow = int.Parse(Console.ReadLine());
 
                 if (liczbaTestow >= 0 && liczbaTestow < 10)
                 {
                     for (int i = 0; i < liczbaTestow; i++)
                     {
                         Console.WriteLine("Wprowadz liczbę książek");
-                        while (flaga2)
+                        while (!flaga2)
                         {
 
 
@@ -50,7 +62,9 @@ namespace PorządkowanieDomowejBiblioteki
                         for (int j = 0; j < liczbaKsiazek; j++)
                         {
                             Console.WriteLine("Wprowadz liczbę stron, wysokość oraz skrócony tytuł książki ");
-                            DaneKsiazki(liczbaKsiazek);
+                            Delegat delegat = DaneKsiazki;
+                            delegat(Console.ReadLine());
+                            //DaneKsiazki(liczbaKsiazek);
                         }
                     }
                     flaga = true;
@@ -61,9 +75,17 @@ namespace PorządkowanieDomowejBiblioteki
 
                 }
             }
+
+            eventPowiadomienieOUzupelnieniu += PowiadomienieUzupełenie;
+            eventPowiadomienieOUzupelnieniu?.Invoke();
         }
 
-        private void DaneKsiazki(int liczbaKsiazek)
+        private void PowiadomienieUzupełenie()
+        {
+           Console.WriteLine("Dane wprowadzaone pprowadzone poprawnie");
+        }
+
+        private void DaneKsiazki(string dane)
         {
 
             for (int i = 0; i < liczbaKsiazek; i++)
@@ -71,11 +93,11 @@ namespace PorządkowanieDomowejBiblioteki
 
 
                 var daneKsiazki = Console.ReadLine();
-                string[] stringDane = daneKsiazki.Trim().Split(' ');
+                string[] stringDane = dane.Trim().Split(' ');
 
-
-
-                if (int.TryParse(stringDane[0], out int pierwszaWartosc) && (int.TryParse(stringDane[1], out int drugaWartosc)))
+                int drugaWartosc = 0;
+                int pierwszaWartosc = 0;
+                if (int.TryParse(stringDane[0], out pierwszaWartosc) && (int.TryParse(stringDane[1], out drugaWartosc)))
                 {
                     string slowo = stringDane[2];
 
@@ -90,5 +112,6 @@ namespace PorządkowanieDomowejBiblioteki
                 }
             }
         }
+
     }
 }

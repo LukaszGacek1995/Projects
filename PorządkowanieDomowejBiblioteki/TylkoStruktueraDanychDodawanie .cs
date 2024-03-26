@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace PorządkowanieDomowejBiblioteki
 {
-    //----------------------- DOPISAĆ DZIEDZICZENIE-----------------------------
 
     public delegate void Delegat(string dane);
 
@@ -64,7 +63,6 @@ namespace PorządkowanieDomowejBiblioteki
                             Console.WriteLine("Wprowadz liczbę stron, wysokość oraz skrócony tytuł książki ");
                             Delegat delegat = DaneKsiazki;
                             delegat(Console.ReadLine());
-                            //DaneKsiazki(liczbaKsiazek);
                         }
                     }
                     flaga = true;

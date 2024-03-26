@@ -14,7 +14,6 @@
             var klasaZDanymi = new KlasaStartowa();
             klasaZDanymi.klasaZDanymi.WprowadzDane();
 
-            //Dictionary<string, Tuple<int, int>> slownikZDanymi = klasaZDanymi.klasaZDanymi.SlownikDanych;
             int liczbaTestow = klasaZDanymi.klasaZDanymi.liczbaTestow;
             MechanizmDzialaniaIObliczanie mechanizmDzialaniaIObliczanie = new MechanizmDzialaniaIObliczanie(klasaZDanymi.klasaZDanymi);
 

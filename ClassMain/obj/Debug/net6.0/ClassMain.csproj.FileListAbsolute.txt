@@ -32,3 +32,8 @@ C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ClassMain.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ClassMain.genruntimeconfig.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\Projects\ClassMain\obj\Debug\net6.0\ref\ClassMain.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\ClassMain.csproj.AssemblyReference.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\ClassMain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\ClassMain.AssemblyInfoInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\ClassMain.AssemblyInfo.cs
+C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\ClassMain.csproj.CoreCompileInputs.cache

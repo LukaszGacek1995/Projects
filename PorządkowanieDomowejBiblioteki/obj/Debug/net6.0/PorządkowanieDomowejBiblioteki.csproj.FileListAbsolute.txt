@@ -1,0 +1,12 @@
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\bin\Debug\net6.0\PorządkowanieDomowejBiblioteki.deps.json
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\bin\Debug\net6.0\PorządkowanieDomowejBiblioteki.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\bin\Debug\net6.0\PorządkowanieDomowejBiblioteki.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\PorządkowanieDomowejBiblioteki.csproj.AssemblyReference.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\PorządkowanieDomowejBiblioteki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\PorządkowanieDomowejBiblioteki.AssemblyInfoInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\PorządkowanieDomowejBiblioteki.AssemblyInfo.cs
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\PorządkowanieDomowejBiblioteki.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\PorządkowanieDomowejBiblioteki.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\refint\PorządkowanieDomowejBiblioteki.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\PorządkowanieDomowejBiblioteki.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\PorządkowanieDomowejBiblioteki\obj\Debug\net6.0\ref\PorządkowanieDomowejBiblioteki.dll

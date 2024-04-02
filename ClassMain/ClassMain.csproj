@@ -15,6 +15,7 @@
     <ProjectReference Include="..\SzyfrMatematyczny\SzyfrMatematyczny.csproj" />
     <ProjectReference Include="..\Słodnik\Słownik.csproj" />
     <ProjectReference Include="..\WyscigBiedronek\WyscigBiedronek.csproj" />
+    <ProjectReference Include="..\Wyszukiwarka\Wyszukiwarka.csproj" />
   </ItemGroup>
 
 </Project>

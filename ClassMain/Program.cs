@@ -35,7 +35,9 @@ public class Program
         //GrupowanieKontaktow.KlasaUruchomieniowa.UruchomProgrma();
 
         // 7. Projekt - Porządkowanie Domowej Bibjioteki
-        PorządkowanieDomowejBiblioteki.KlasaStartowa.UruchomProgram();
-       
+        //PorządkowanieDomowejBiblioteki.KlasaStartowa.UruchomProgram();
+
+        // 8. Projekt - Wyszukiwarka
+        Wyszukiwarka.KlasaStartowaProgramu.Start();
     }
 }

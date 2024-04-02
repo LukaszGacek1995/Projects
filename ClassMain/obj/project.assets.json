@@ -71,6 +71,16 @@
         "runtime": {
           "bin/placeholder/WyscigBiedronek.dll": {}
         }
+      },
+      "Wyszukiwarka/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Wyszukiwarka.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Wyszukiwarka.dll": {}
+        }
       }
     }
   },
@@ -109,6 +119,11 @@
       "type": "project",
       "path": "../WyscigBiedronek/WyscigBiedronek.csproj",
       "msbuildProject": "../WyscigBiedronek/WyscigBiedronek.csproj"
+    },
+    "Wyszukiwarka/1.0.0": {
+      "type": "project",
+      "path": "../Wyszukiwarka/Wyszukiwarka.csproj",
+      "msbuildProject": "../Wyszukiwarka/Wyszukiwarka.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -119,7 +134,8 @@
       "PorządkowanieDomowejBiblioteki >= 1.0.0",
       "SzyfrMatematyczny >= 1.0.0",
       "Słownik >= 1.0.0",
-      "WyscigBiedronek >= 1.0.0"
+      "WyscigBiedronek >= 1.0.0",
+      "Wyszukiwarka >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -169,6 +185,9 @@
             },
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj"
+            },
+            "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj": {
+              "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj"
             }
           }
         }

@@ -18,12 +18,5 @@ namespace Wyszukiwarka
         {
           return "Przekroczono zakres, spróbuj jeszcze raz";
         }
-
-        
-        public abstract string Komenda3();
-
-        //public abstract string Komenda4();
-
-
     }
 }

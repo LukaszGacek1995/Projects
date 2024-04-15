@@ -8,6 +8,8 @@ namespace Wyszukiwarka
 {
     internal interface IElementyWyszukiwarki
     {
-
+         public void MechanizmSprawdzania();
+         public string ZwracanieDanych();
+        public string testowaWlasciwosc { get; set; }
     }
 }

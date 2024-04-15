@@ -19,84 +19,35 @@ namespace Wyszukiwarka
             ListaZZdaniami = new List<string>();
             ListaZWprowadzonymiSlowamiUzytkownik = new List<string>();
         }
-         
 
-
-        int liczbaWprowadzanychHaselCustomPojedyncze = 0;
-        
-        internal string[] Dane()
+        public void Dane()
         {
-            PeleZdaniaWWyszukiwarce();
+            PoleZdaniaWWyszukiwarce();
             WprowadzWartosciUzytkowniak();
-
-            return null;
         }
 
-        private void PeleZdaniaWWyszukiwarce()
+        private void PoleZdaniaWWyszukiwarce()
         {
-            bool flaga = false;
+            Console.WriteLine("Proszę wprowadzić liczbę przypadków testowych:");
+            int liczbaWprowadzonychZdan = int.Parse(Console.ReadLine());
 
-            int liczbawprowadzonychZdan = 0;
-           
-           
-
-            while (!flaga)
+            for (int i = 0; i < liczbaWprowadzonychZdan; i++)
             {
-                Komenda1();
-
-                string liczbawprowadzonychZdanBezBialychZnakow = Console.ReadLine().Trim();
-                liczbawprowadzonychZdan = int.Parse(liczbawprowadzonychZdanBezBialychZnakow);
-
-                if (liczbawprowadzonychZdan != null && liczbawprowadzonychZdan > 0 && liczbawprowadzonychZdan <= 10000)
-                {
-                    flaga = true;
-                }
-                else
-                {
-                    Komenda2();
-                    flaga = false;
-                }
-            }
-
-            for (int i = 0; i < liczbawprowadzonychZdan; i++)
-            {
-                ListaZZdaniami = Console.ReadLine().Split().ToList();
+                string wprowadzaniePozycjiInternet = Console.ReadLine();
+                ListaZZdaniami.Add(wprowadzaniePozycjiInternet.ToLower());
             }
         }
 
         private void WprowadzWartosciUzytkowniak()
         {
-            bool flaga = false;
+            Console.WriteLine("Proszę wprowadzić liczbę wyszukiwanych słów:");
+            int liczbaWprowadzanychHaselCustomPojedyncze = int.Parse(Console.ReadLine());
 
-            while (!flaga)
+            for (int i = 0; i < liczbaWprowadzanychHaselCustomPojedyncze; i++)
             {
-                Komenda3();
-                string liczbaWprowadzanychHaselCustom = Console.ReadLine().Trim();
-                liczbaWprowadzanychHaselCustomPojedyncze = int.Parse(liczbaWprowadzanychHaselCustom);
-
-                if (liczbaWprowadzanychHaselCustomPojedyncze != null && liczbaWprowadzanychHaselCustomPojedyncze > 0 && liczbaWprowadzanychHaselCustomPojedyncze <= 10000)
-                {
-                    flaga = true;
-                }
-                else
-                {
-                    Komenda2();
-                    flaga = false;
-                }
+                string wprowadzaniePozycjiUzytkownika = Console.ReadLine();
+                ListaZWprowadzonymiSlowamiUzytkownik.Add(wprowadzaniePozycjiUzytkownika.ToLower());
             }
-            for(int i =0; i< liczbaWprowadzanychHaselCustomPojedyncze; i++)
-            {
-                ListaZWprowadzonymiSlowamiUzytkownik = Console.ReadLine().Split().ToList();
-            }
-        }
-
-        public override string Komenda3()
-        {
-            return "Proszę wprowadzić liczbę wyszukiwanych słów, a poniżej te słowa";
-        }
-        public override string Komenda1()
-        {
-            return "Wproszę wprowadzić liczbę przypadków testowych - liczba rzeczywista bez odspęptów";
         }
     }
 }

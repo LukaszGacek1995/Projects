@@ -1,0 +1,113 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ClassMain/1.0.0": {
+        "dependencies": {
+          "Autobus": "1.0.0",
+          "GrupowanieKontaktow": "1.0.0",
+          "Library": "1.0.0",
+          "PorządkowanieDomowejBiblioteki": "1.0.0",
+          "SzyfrMatematyczny": "1.0.0",
+          "Słownik": "1.0.0",
+          "WyscigBiedronek": "1.0.0",
+          "Wyszukiwarka": "1.0.0"
+        },
+        "runtime": {
+          "ClassMain.dll": {}
+        }
+      },
+      "Autobus/1.0.0": {
+        "runtime": {
+          "Autobus.dll": {}
+        }
+      },
+      "GrupowanieKontaktow/1.0.0": {
+        "runtime": {
+          "GrupowanieKontaktow.dll": {}
+        }
+      },
+      "Library/1.0.0": {
+        "runtime": {
+          "Library.dll": {}
+        }
+      },
+      "PorządkowanieDomowejBiblioteki/1.0.0": {
+        "runtime": {
+          "PorządkowanieDomowejBiblioteki.dll": {}
+        }
+      },
+      "SzyfrMatematyczny/1.0.0": {
+        "runtime": {
+          "SzyfrMatematyczny.dll": {}
+        }
+      },
+      "Słownik/1.0.0": {
+        "runtime": {
+          "Słownik.dll": {}
+        }
+      },
+      "WyscigBiedronek/1.0.0": {
+        "runtime": {
+          "WyscigBiedronek.dll": {}
+        }
+      },
+      "Wyszukiwarka/1.0.0": {
+        "runtime": {
+          "Wyszukiwarka.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassMain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autobus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GrupowanieKontaktow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PorządkowanieDomowejBiblioteki/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SzyfrMatematyczny/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Słownik/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WyscigBiedronek/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Wyszukiwarka/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -38,6 +38,9 @@ public class Program
         //PorządkowanieDomowejBiblioteki.KlasaStartowa.UruchomProgram();
 
         // 8. Projekt - Wyszukiwarka
-        Wyszukiwarka.KlasaStartowaProgramu.Start();
+        //Wyszukiwarka.KlasaStartowaProgramu.Start();
+
+        // 9. Projekt - Pomiary meteorologiczne
+        PomiaryMeteorologiczne.UruchomienieProgramu.Start();
     }
 }

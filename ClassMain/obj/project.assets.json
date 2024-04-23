@@ -32,6 +32,16 @@
           "bin/placeholder/Library.dll": {}
         }
       },
+      "PomiaryMeteorologiczne/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PomiaryMeteorologiczne.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PomiaryMeteorologiczne.dll": {}
+        }
+      },
       "PorządkowanieDomowejBiblioteki/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -100,6 +110,11 @@
       "path": "../Library/Library.csproj",
       "msbuildProject": "../Library/Library.csproj"
     },
+    "PomiaryMeteorologiczne/1.0.0": {
+      "type": "project",
+      "path": "../PomiaryMeteorologiczne/PomiaryMeteorologiczne.csproj",
+      "msbuildProject": "../PomiaryMeteorologiczne/PomiaryMeteorologiczne.csproj"
+    },
     "PorządkowanieDomowejBiblioteki/1.0.0": {
       "type": "project",
       "path": "../PorządkowanieDomowejBiblioteki/PorządkowanieDomowejBiblioteki.csproj",
@@ -131,6 +146,7 @@
       "Autobus >= 1.0.0",
       "GrupowanieKontaktow >= 1.0.0",
       "Library >= 1.0.0",
+      "PomiaryMeteorologiczne >= 1.0.0",
       "PorządkowanieDomowejBiblioteki >= 1.0.0",
       "SzyfrMatematyczny >= 1.0.0",
       "Słownik >= 1.0.0",
@@ -173,6 +189,9 @@
             },
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj"
+            },
+            "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj": {
+              "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj"
             },
             "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj": {
               "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj"

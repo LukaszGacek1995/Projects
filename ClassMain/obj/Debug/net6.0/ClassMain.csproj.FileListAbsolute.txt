@@ -70,3 +70,5 @@ C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\refint\C
 C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\ClassMain.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\ClassMain.genruntimeconfig.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\obj\Debug\net6.0\ref\ClassMain.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\bin\Debug\net6.0\PomiaryMeteorologiczne.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\ClassMain\bin\Debug\net6.0\PomiaryMeteorologiczne.pdb

@@ -11,6 +11,7 @@
           "Autobus": "1.0.0",
           "GrupowanieKontaktow": "1.0.0",
           "Library": "1.0.0",
+          "PomiaryMeteorologiczne": "1.0.0",
           "PorządkowanieDomowejBiblioteki": "1.0.0",
           "SzyfrMatematyczny": "1.0.0",
           "Słownik": "1.0.0",
@@ -34,6 +35,11 @@
       "Library/1.0.0": {
         "runtime": {
           "Library.dll": {}
+        }
+      },
+      "PomiaryMeteorologiczne/1.0.0": {
+        "runtime": {
+          "PomiaryMeteorologiczne.dll": {}
         }
       },
       "PorządkowanieDomowejBiblioteki/1.0.0": {
@@ -80,6 +86,11 @@
       "sha512": ""
     },
     "Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PomiaryMeteorologiczne/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

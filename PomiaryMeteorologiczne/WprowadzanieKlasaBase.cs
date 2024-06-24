@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace PomiaryMeteorologiczne
 {
-    internal class WprowadzanieKlasaBase
+    public abstract class WprowadzanieKlasaBase
     {
-        internal virtual Dictionary<int, int> ZasilanieDanymi()
-        {
-            Console.WriteLine("Wprowadż dane ");
-
-            return null;
-        }
+        public abstract string ZasilanieDanymi();
     }
 }

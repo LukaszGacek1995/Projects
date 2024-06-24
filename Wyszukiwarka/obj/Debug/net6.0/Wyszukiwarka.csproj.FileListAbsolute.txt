@@ -1,11 +1,11 @@
-C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\bin\Debug\net6.0\Wyszukiwarka.deps.json
-C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\bin\Debug\net6.0\Wyszukiwarka.dll
-C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\bin\Debug\net6.0\Wyszukiwarka.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\obj\Debug\net6.0\Wyszukiwarka.csproj.AssemblyReference.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\obj\Debug\net6.0\Wyszukiwarka.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\obj\Debug\net6.0\Wyszukiwarka.AssemblyInfoInputs.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\obj\Debug\net6.0\Wyszukiwarka.AssemblyInfo.cs
 C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\obj\Debug\net6.0\Wyszukiwarka.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\bin\Debug\net6.0\Wyszukiwarka.deps.json
+C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\bin\Debug\net6.0\Wyszukiwarka.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\bin\Debug\net6.0\Wyszukiwarka.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\obj\Debug\net6.0\Wyszukiwarka.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\obj\Debug\net6.0\refint\Wyszukiwarka.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\Wyszukiwarka\obj\Debug\net6.0\Wyszukiwarka.pdb

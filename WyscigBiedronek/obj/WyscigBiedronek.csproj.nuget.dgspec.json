@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {}
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
+    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
         "projectName": "WyscigBiedronek",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
+        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\WyscigBiedronek\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

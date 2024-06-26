@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
       "projectName": "GrupowanieKontaktow",
-      "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
+      "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
       "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Projects\\GrupowanieKontaktow\\obj\\",
+      "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

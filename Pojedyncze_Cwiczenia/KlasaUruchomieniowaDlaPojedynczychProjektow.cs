@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,6 +16,9 @@ namespace Pojedyncze_Cwiczenia
             //KlasaUruchomieniowaDlaPojedynczychProjektow klasaUruchomieniowaDlaPojedynczychProjektow = new KlasaUruchomieniowaDlaPojedynczychProjektow();
             DelgatyCwiczenia1 delgatyCwiczenia1 = new DelgatyCwiczenia1();
             delgatyCwiczenia1.PierwszeCwiczenia();
+
+            DelegatyCwiczenia2 delegatyCwiczenia2 = new DelegatyCwiczenia2();
+            delegatyCwiczenia2.DrugieCwiczenie();
         }
     }
 
@@ -158,6 +162,122 @@ namespace Pojedyncze_Cwiczenia
         }
     }
     class Product
+    {
+        public string Name { get; set; }
+        public string Category { get; set; }
+        public double Price { get; set; }
+        public double Rating { get; set; }
+    }
+    //---------------------------------------------------------------------------- TRZECIE ZADANIE __ POCZĄTEK
+    public class DelegatyCwiczenia3
+    {
+        public void TrzecieCwiczenie()
+        {
+            List<Product2> products = new List<Product2>
+            {
+                new Product2 { Name = "Laptop", Category = "Electronics", Price = 1200.50, Rating = 4.8 },
+                new Product2 { Name = "Smartphone", Category = "Electronics", Price = 800.99, Rating = 4.5 },
+                new Product2 { Name = "Tablet", Category = "Electronics", Price = 300.75, Rating = 4.1 },
+                new Product2 { Name = "Headphones", Category = "Accessories", Price = 150.00, Rating = 4.2 },
+                new Product2 { Name = "Keyboard", Category = "Accessories", Price = 99.99, Rating = 4.4 }
+            };
+
+            Func<List<Product2>, string, List<Product2>> actionDlaPierwszejMedoty = (products, categoty) => FilterByCategory(products, categoty);
+
+            // Filtrowanie produktów według kategorii
+            List<Product2> electronics = FilterByCategory(products, "Electronics");
+            Console.WriteLine("Electronics:");
+            PrintProducts(electronics);
+
+
+            Func<List<Product2>, List<Product2>> product2s = (products) => SortByPriceAscending(products);
+
+            // Sortowanie produktów według ceny rosnąco
+            List<Product2> sortedByPrice = SortByPriceAscending(products);
+            Console.WriteLine("\nProducts sorted by price:");
+            PrintProducts(sortedByPrice);
+
+
+
+            Func<List<Product2>, double> product3 = (products) => CalculateAveragePrice(products);
+            // Obliczanie średniej ceny produktów
+            double averagePrice = CalculateAveragePrice(products);
+            Console.WriteLine($"\nAverage Price: {averagePrice}");
+
+            Func<List<Product2>, List<Product2>> prodct4 = (products) => FilterHighRatedProducts(products);
+
+            // Filtrowanie produktów z wysoką oceną
+            List<Product2> highRatedProducts = FilterHighRatedProducts(products);
+            Console.WriteLine("\nHighly Rated Products:");
+            PrintProducts(highRatedProducts);
+
+            Action<List<Product2>> product4 = (products) => PrintAllProducts(products);
+            // Wydrukowanie szczegółów wszystkich produktów
+            Console.WriteLine("\nAll Products:");
+            PrintAllProducts(products);
+
+            Console.ReadKey();
+        }
+
+        static List<Product2> FilterByCategory(List<Product2> products, string category)
+        {
+            List<Product2> result = new List<Product2>();
+            foreach (var product in products)
+            {
+                if (product.Category == category)
+                {
+                    result.Add(product);
+                }
+            }
+            return result;
+        }
+
+        static List<Product2> SortByPriceAscending(List<Product2> products)
+        {
+            List<Product2> sortedProducts = new List<Product2>(products);
+            sortedProducts.Sort((p1, p2) => p1.Price.CompareTo(p2.Price));
+            return sortedProducts;
+        }
+
+        static double CalculateAveragePrice(List<Product2> products)
+        {
+            double total = 0;
+            foreach (var product in products)
+            {
+                total += product.Price;
+            }
+            return total / products.Count;
+        }
+        static List<Product2> FilterHighRatedProducts(List<Product2> products)
+        {
+            List<Product2> result = new List<Product2>();
+            foreach (var product in products)
+            {
+                if (product.Rating > 4.5)
+                {
+                    result.Add(product);
+                }
+            }
+            return result;
+        }
+
+        static void PrintAllProducts(List<Product2> products)
+        {
+            foreach (var product in products)
+            {
+                Console.WriteLine($"Name: {product.Name}, Category: {product.Category}, Price: {product.Price}, Rating: {product.Rating}");
+            }
+        }
+
+        static void PrintProducts(List<Product2> products)
+        {
+            foreach (var product in products)
+            {
+                Console.WriteLine($"Name: {product.Name}, Category: {product.Category}, Price: {product.Price}, Rating: {product.Rating}");
+            }
+        }
+    }
+    class Product2
     {
         public string Name { get; set; }
         public string Category { get; set; }

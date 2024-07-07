@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Library >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
       "projectName": "SzyfrMatematyczny",
-      "projectPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
+      "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
       "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\SzyfrMatematyczny\\obj\\",
+      "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj": {
+              "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

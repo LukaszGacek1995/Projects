@@ -3,3 +3,10 @@ C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\obj\Debug\ne
 C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\obj\Debug\net6.0\PomiaryMeteorologiczne.AssemblyInfoInputs.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\obj\Debug\net6.0\PomiaryMeteorologiczne.AssemblyInfo.cs
 C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\obj\Debug\net6.0\PomiaryMeteorologiczne.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\bin\Debug\net6.0\PomiaryMeteorologiczne.deps.json
+C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\bin\Debug\net6.0\PomiaryMeteorologiczne.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\bin\Debug\net6.0\PomiaryMeteorologiczne.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\obj\Debug\net6.0\PomiaryMeteorologiczne.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\obj\Debug\net6.0\refint\PomiaryMeteorologiczne.dll
+C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\obj\Debug\net6.0\PomiaryMeteorologiczne.pdb
+C:\Users\Łukasz Gacek\source\repos\Projects\PomiaryMeteorologiczne\obj\Debug\net6.0\ref\PomiaryMeteorologiczne.dll

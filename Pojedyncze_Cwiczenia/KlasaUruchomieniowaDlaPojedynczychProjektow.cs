@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 
 namespace Pojedyncze_Cwiczenia
@@ -307,7 +308,7 @@ namespace Pojedyncze_Cwiczenia
                 Console.WriteLine(number);
             }
 
-            Func<List<int>, int> delegatMetodySumNumbers =  SumNumbers;
+            Func<List<int>, int> delegatMetodySumNumbers = SumNumbers;
             // Zwykła metoda do sumowania liczb
             int sum = delegatMetodySumNumbers(numbers);
             Console.WriteLine($"Suma liczb: {sum}");
@@ -350,4 +351,86 @@ namespace Pojedyncze_Cwiczenia
         }
     }
 
+    // -----------------------------------------
+
+    public delegate bool delegatDlaWarunku(int e);
+    public class DelegatyCwiczenia5
+    {
+        public void PiateCwiczenie()
+        {
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
+
+            delegatDlaWarunku delWar = GreaterThanThree;
+
+            List<int> filteredNumbers = FilterNumbers(numbers, delWar);
+            Console.WriteLine("Liczby większe niż 3:");
+            foreach (var number in filteredNumbers)
+            {
+                Console.WriteLine(number);
+            }
+        }
+        static bool GreaterThanThree(int number)
+        {
+            return number > 3;
+        }
+        static List<int> FilterNumbers(List<int> numbers, delegatDlaWarunku elo)
+        {
+            List<int> filteredNumbers = new List<int>();
+            foreach (var number in numbers)
+            {
+                if (elo(number))
+                {
+                    filteredNumbers.Add(number);
+                }
+            }
+            return filteredNumbers;
+        }
+    }
+    public delegate int Delegat6Cwiczenia(int c);
+    public class DelegatyCwiczenia6
+    {
+        public void SzosteCwiczenie()
+        {
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+
+            Delegat6Cwiczenia del6cw = DoubleValue;
+
+            List<int> doubledNumbers = TransformNumbers(numbers, del6cw);
+            Console.WriteLine("Podwojone liczby:");
+            foreach (var number in doubledNumbers)
+            {
+                Console.WriteLine(number);
+            }
+        }
+        static int DoubleValue(int number)
+        {
+            return number * 2;
+        }
+        static List<int> TransformNumbers(List<int> numbers, Delegat6Cwiczenia transformer)
+        {
+            List<int> transformedNumbers = new List<int>();
+            foreach (var number in numbers)
+            {
+                transformedNumbers.Add(transformer(number));
+            }
+            return transformedNumbers;
+        }
+    }
+
+    public delegate void delegatDo7cwiczenia(string e, string b);
+    public class DelegatyCwiczenia7
+    {
+        public void SiodmeCwiczenie()
+        {
+            string message = "Witaj, świecie!";
+
+            delegatDo7cwiczenia del7cw = (e, b) => PrintMessage(e, Console.WriteLine);
+            
+            PrintMessage(message, Console.WriteLine);
+        }
+        static void PrintMessage(string message, Action<string> printer)
+        {
+            printer(message);
+        }
+    }
 }

@@ -19,6 +19,12 @@ namespace Pojedyncze_Cwiczenia
 
             DelegatyCwiczenia2 delegatyCwiczenia2 = new DelegatyCwiczenia2();
             delegatyCwiczenia2.DrugieCwiczenie();
+
+            DelegatyCwiczenia3 delegatyCwiczenia3 = new DelegatyCwiczenia3();
+            delegatyCwiczenia3.TrzecieCwiczenie();
+
+            DelegatyCwiczenia4 delegatyCwiczenia4 = new DelegatyCwiczenia4();
+            delegatyCwiczenia4.CzwarteCwiczenie();
         }
     }
 
@@ -284,4 +290,64 @@ namespace Pojedyncze_Cwiczenia
         public double Price { get; set; }
         public double Rating { get; set; }
     }
+
+    public delegate List<int> delegateCwCztery(List<int> n);
+    public class DelegatyCwiczenia4
+    {
+        public void CzwarteCwiczenie()
+        {
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+
+            delegateCwCztery delegateCwCztery = FilterEvenNumbers;
+            var del4Cw = delegateCwCztery(numbers);
+
+            Console.WriteLine("Parzyste liczby:");
+            foreach (var number in del4Cw)
+            {
+                Console.WriteLine(number);
+            }
+
+            Func<List<int>, int> delegatMetodySumNumbers =  SumNumbers;
+            // Zwykła metoda do sumowania liczb
+            int sum = delegatMetodySumNumbers(numbers);
+            Console.WriteLine($"Suma liczb: {sum}");
+
+            // Zwykła metoda do drukowania liczb
+            PrintNumbers(numbers);
+        }
+
+        // Metoda filtrowania liczb parzystych
+        static List<int> FilterEvenNumbers(List<int> numbers)
+        {
+            List<int> evenNumbers = new List<int>();
+            foreach (var number in numbers)
+            {
+                if (number % 2 == 0)
+                {
+                    evenNumbers.Add(number);
+                }
+            }
+            return evenNumbers;
+        }
+
+        static int SumNumbers(List<int> numbers)
+        {
+            int sum = 0;
+            foreach (var number in numbers)
+            {
+                sum += number;
+            }
+            return sum;
+        }
+
+        static void PrintNumbers(List<int> numbers)
+        {
+            Console.WriteLine("Liczby:");
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+        }
+    }
+
 }

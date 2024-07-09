@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading.Tasks.Dataflow;
 using System.Xml.Linq;
 
 
@@ -431,6 +432,100 @@ namespace Pojedyncze_Cwiczenia
         static void PrintMessage(string message, Action<string> printer)
         {
             printer(message);
+        }
+    }
+
+    public delegate bool DlegatWarunkuCW8(string n);
+    public class DelegatyCwiczenia8
+    {
+        public void ÓsmeCwiczenie()
+        {
+            List<string> names = new List<string> { "Anna", "Bob", "Charlie", "David" };
+
+            DlegatWarunkuCW8 dlegatWarunkuCW8 = StartsWithC;
+
+            List<string> filteredNames = FilterNames(names, dlegatWarunkuCW8);
+            Console.WriteLine("Imiona zaczynające się na 'C':");
+            foreach (var name in filteredNames)
+            {
+                Console.WriteLine(name);
+            }
+
+        }
+        static bool StartsWithC(string name)
+        {
+            return name.StartsWith("C");
+        }
+
+        static List<string> FilterNames(List<string> names, DlegatWarunkuCW8 dlegatWarunku)
+        {
+            List<string> filteredNames = new List<string>();
+            foreach (var name in names)
+            {
+                if (dlegatWarunku(name))
+                {
+                    filteredNames.Add(name);
+                }
+            }
+            return filteredNames;
+        }
+    }
+    public delegate int delegateCwDziewiec(int y, int elo);
+    public class DelegatyCwiczenia9
+    {
+        public void dziewiateCwiczenie()
+        {
+            List<int> numbers = new List<int> { 5, 3, 8, 1, 2 };
+
+            delegateCwDziewiec del9 = CompareDescending;
+            
+
+            numbers.Sort(new Comparison<int>(del9));
+            Console.WriteLine("Posortowane liczby malejąco:");
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+            static int CompareDescending(int x, int y)
+            {
+                return y.CompareTo(x);
+            }
+        }
+    }
+
+    public delegate double DelegatZCwDZiesiatego(double h, double e);
+    public class DelegatyCwiczenia10
+    {
+        public void dziesiateCwiczenie()
+        {
+            double a = 5;
+            double b = 3;
+
+            DelegatZCwDZiesiatego delegatZCwDZiesiatego1 = Subtract;
+            delegatZCwDZiesiatego1 += Add;
+
+
+            // Dodawanie
+            double result = PerformOperation(a, b, Add);
+            Console.WriteLine($"Dodawanie: {a} + {b} = {result}");
+
+            // Odejmowanie
+            result = PerformOperation(a, b, delegatZCwDZiesiatego1);
+            Console.WriteLine($"Odejmowanie: {a} - {b} = {result}");
+        }
+        static double Add(double x, double y)
+        {
+            return x + y;
+        }
+
+        static double Subtract(double x, double y)
+        {
+            return x - y;
+        }
+
+        static double PerformOperation(double x, double y, DelegatZCwDZiesiatego delegatZCwDZiesiategeee)
+        {
+            return delegatZCwDZiesiategeee(x, y);
         }
     }
 }

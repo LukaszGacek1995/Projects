@@ -426,7 +426,7 @@ namespace Pojedyncze_Cwiczenia
             string message = "Witaj, świecie!";
 
             delegatDo7cwiczenia del7cw = (e, b) => PrintMessage(e, Console.WriteLine);
-            
+
             PrintMessage(message, Console.WriteLine);
         }
         static void PrintMessage(string message, Action<string> printer)
@@ -478,7 +478,7 @@ namespace Pojedyncze_Cwiczenia
             List<int> numbers = new List<int> { 5, 3, 8, 1, 2 };
 
             delegateCwDziewiec del9 = CompareDescending;
-            
+
 
             numbers.Sort(new Comparison<int>(del9));
             Console.WriteLine("Posortowane liczby malejąco:");
@@ -526,6 +526,22 @@ namespace Pojedyncze_Cwiczenia
         static double PerformOperation(double x, double y, DelegatZCwDZiesiatego delegatZCwDZiesiategeee)
         {
             return delegatZCwDZiesiategeee(x, y);
+        }
+    }
+
+    public class DelegatyCwiczenia11
+    {
+        public void jedenasteCwiczenie()
+        {
+            Button button = new Button();
+            button.Click += OnButtonClick;
+
+            button.SimulateClick();
+        }
+
+        static void OnButtonClick()
+        {
+            Console.WriteLine("Przycisk został kliknięty!");
         }
     }
 }

@@ -3,13 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 using System.Xml.Linq;
+using static Pojedyncze_Cwiczenia.Delegaty.DelegatyCwiczenia11;
 
 
-namespace Pojedyncze_Cwiczenia
+namespace Pojedyncze_Cwiczenia.Delegaty
 {
     public static class KlasaUruchomieniowaDlaPojedynczychProjektow
     {
@@ -533,15 +535,302 @@ namespace Pojedyncze_Cwiczenia
     {
         public void jedenasteCwiczenie()
         {
-            Button button = new Button();
-            button.Click += OnButtonClick;
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
 
-            button.SimulateClick();
+            Func<int, int> funcZadanie11 = Square;
+
+            List<int> squaredNumbers = ProcessCollection(numbers, funcZadanie11);
+            Console.WriteLine("Liczby podniesione do kwadratu:");
+            foreach (var number in squaredNumbers)
+            {
+                Console.WriteLine(number);
+            }
+            static int Square(int number)
+            {
+                return number * number;
+            }
+
+            static List<int> ProcessCollection(List<int> collection, Func<int, int> processor)
+            {
+                List<int> result = new List<int>();
+                foreach (var item in collection)
+                {
+                    result.Add(processor(item));
+                }
+                return result;
+            }
         }
 
-        static void OnButtonClick()
+        public class Dlegaty12Cwiczenie
         {
-            Console.WriteLine("Przycisk został kliknięty!");
+            public void dwunateCwiczenie()
+            {
+
+                List<string> passwords = new List<string> { "password", "123456", "abcdef", "123abc" };
+
+                Predicate<string> ddelegateCwiczenie13 = IsValidPassword;
+
+                List<string> validPasswords = ValidateTexts(passwords, IsValidPassword);
+                Console.WriteLine("Poprawne hasła:");
+                foreach (var password in validPasswords)
+                {
+                    Console.WriteLine(password);
+                }
+            }
+            static bool IsValidPassword(string password)
+            {
+                return password.Length >= 6;
+            }
+
+            static List<string> ValidateTexts(List<string> texts, Predicate<string> validator)
+            {
+                List<string> result = new List<string>();
+                foreach (var text in texts)
+                {
+                    if (validator(text))
+                    {
+                        result.Add(text);
+                    }
+                }
+                return result;
+            }
+        }
+
+        public class trzynasteCwiczenieDelegate
+        {
+            public void TrzynasteCwiczenie()
+            {
+                List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+
+                Func<int, int> funcZadanie = Square;
+
+                List<int> squaredNumbers = ProcessCollection(numbers, funcZadanie);
+                Console.WriteLine("Liczby podniesione do kwadratu:");
+                foreach (var number in squaredNumbers)
+                {
+                    Console.WriteLine(number);
+                }
+            }
+            public static int Square(int number)
+            {
+                return number * number;
+            }
+
+            public static List<int> ProcessCollection(List<int> collection, Func<int, int> processor)
+            {
+                List<int> result = new List<int>();
+                foreach (var item in collection)
+                {
+                    result.Add(processor(item));
+                }
+                return result;
+
+            }
+        }
+
+        public class czternateCwiczenieDelegate
+        {
+            public void czternasteCwiczenie()
+            {
+                List<string> words = new List<string> { "apple", "banana", "cherry", "date", "elderberry" };
+
+                Func<string, string> delegatFuncDlaZadani14 = DuzaLitera;
+
+                List<string> uppercasedWords = UppercaseWords(words, delegatFuncDlaZadani14);
+                Console.WriteLine("Słowa zapisane wielkimi literami:");
+                foreach (var word in uppercasedWords)
+                {
+                    Console.WriteLine(word);
+                }
+
+                static List<string> UppercaseWords(List<string> collection, Func<string, string> elo)
+                {
+                    List<string> result = new List<string>();
+                    foreach (var item in collection)
+                    {
+                        result.Add(elo(item));
+                    }
+                    return result;
+                }
+            }
+            public string DuzaLitera(string wyraz)
+            {
+                return wyraz.ToUpper();
+            }
+        }
+        public class pietnascieCwiczenieDelegate
+        {
+            public void pietnasteCwiczenieCwiczenie()
+            {
+                List<double> temperatures = new List<double> { 32.0, 45.5, 50.3, 60.2, 72.4 };
+
+                List<double> convertedTemperatures = ConvertTemperaturesToCelsius(temperatures);
+                Console.WriteLine("Temperatury w stopniach Celsjusza:");
+                foreach (var temp in convertedTemperatures)
+                {
+                    Console.WriteLine(temp);
+                }
+            }
+            static List<double> ConvertTemperaturesToCelsius(List<double> collection)
+            {
+                List<double> result = new List<double>();
+                foreach (var item in collection)
+                {
+                    result.Add((item - 32) * 5 / 9);
+                }
+                return result;
+            }
+        }
+
+        public delegate double DlelegatDlaDodawania14(double a);
+        public class SzesnasteCwiczenieDelegate
+        {
+            public void pietnasteCwiczenie()
+            {
+                List<double> temperatures = new List<double> { 32.0, 45.5, 50.3, 60.2, 72.4 };
+
+                DlelegatDlaDodawania14 dlelegatDlaDodawania = MechanizmOdejmowania14;
+
+                List<double> convertedTemperatures = ConvertTemperaturesToCelsius(temperatures, dlelegatDlaDodawania);
+                Console.WriteLine("Temperatury w stopniach Celsjusza:");
+                foreach (var temp in convertedTemperatures)
+                {
+                    Console.WriteLine(temp);
+                }
+            }
+            static List<double> ConvertTemperaturesToCelsius(List<double> collection, DlelegatDlaDodawania14 dlelegatDlaDodawania)
+            {
+                List<double> result = new List<double>();
+                foreach (var item in collection)
+                {
+                    result.Add((item - 32) * 5 / 9);
+                    result.Add(dlelegatDlaDodawania(item));
+                }
+                return result;
+            }
+
+            public double MechanizmOdejmowania14(double item)
+            {
+                return (item - 32) * 5 / 9;
+            }
+        }
+        //----------------- KOLEJNE ĆWICZENIE
+
+        delegate string Delegatcw17PersonElementry(Person e);
+        public class SiedemnasteCwiczenieDelegate
+        {
+            public void SiedemnastyCwiczenieCwiczenie()
+            {
+                List<Person> people = new List<Person>
+                {
+                    new Person { Name = "John", Age = 30 },
+                    new Person { Name = "Jane", Age = 25 },
+                    new Person { Name = "Tom", Age = 40 },
+                    new Person { Name = "Lucy", Age = 35 }
+                };
+
+                Delegatcw17PersonElementry delegatcw17PersonElementry = DodawanieDla17Zadania;
+
+                List<string> names = ExtractNames(people, delegatcw17PersonElementry);
+                Console.WriteLine("Imiona:");
+                foreach (var name in names)
+                {
+                    Console.WriteLine(name);
+                }
+            }
+            static List<string> ExtractNames(List<Person> collection, Delegatcw17PersonElementry delegatcw17PersonElementry)
+            {
+                List<string> result = new List<string>();
+                foreach (var item in collection)
+                {
+                    result.Add(delegatcw17PersonElementry(item));
+                }
+                return result;
+            }
+
+            public string DodawanieDla17Zadania(Person item)
+            {
+                return item.Name;
+            }
+        }
+        public class Person
+        {
+            public string Name { get; set; }
+            public int Age { get; set; }
+        }
+
+
+        // Koleje Ćwiczenie-------------------
+
+
+
+        public delegate Person DelegatDo17Zadania();
+        public delegate double DelegatDo17Zadania2();
+        public class OsiemnastyCwiczenieDelegate
+        {
+            public void OsiemnastyCwiczenieCwiczenie()
+            {
+                List<Product> products = new List<Product>
+                {
+                    new Product { Name = "Laptop", Price = 1200.00, Category = "Electronics" },
+                    new Product { Name = "Smartphone", Price = 800.00, Category = "Electronics" },
+                    new Product { Name = "Bread", Price = 2.50, Category = "Groceries" },
+                    new Product { Name = "Milk", Price = 1.20, Category = "Groceries" },
+                    new Product { Name = "Headphones", Price = 150.00, Category = "Electronics" }
+                };
+
+                // Filtracja
+                List<Product> filteredProducts = FilterElectronics(products);
+                // Przetwarzanie
+                List<double> productPrices = ExtractPrices(filteredProducts);
+                // Sortowanie
+                List<Product> sortedProducts = SortByPrice(filteredProducts);
+
+                Console.WriteLine("Produkty z kategorii Electronics:");
+                foreach (var product in sortedProducts)
+                {
+                    Console.WriteLine($"{product.Name} - {product.Price:C}");
+                }
+            }
+
+            static List<Product> FilterElectronics(List<Product> collection)
+            {
+                List<Product> result = new List<Product>();
+                foreach (var item in collection)
+                {
+                    if (item.Category == "Electronics")
+                    {
+                        result.Add(item);
+                    }
+                }
+                return result;
+            }
+
+            static List<double> ExtractPrices(List<Product> collection)
+            {
+                List<double> result = new List<double>();
+                foreach (var item in collection)
+                {
+                    result.Add(item.Price);
+                }
+                return result;
+            }
+
+            static List<Product> SortByPrice(List<Product> collection)
+            {
+                List<Product> sortedList = new List<Product>(collection);
+                sortedList.Sort((x, y) => x.Price.CompareTo(y.Price));
+                return sortedList;
+            }
+        }
+
+        public class Product
+        {
+            public string Name { get; set; }
+            public double Price { get; set; }
+            public string Category { get; set; }
         }
     }
 }
+
+

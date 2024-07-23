@@ -11,7 +11,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WyscigBiedronek;
-using Pojedyncze_Cwiczenia;
+using Pojedyncze_Cwiczenia.Delegaty;
+using Pojedyncze_Cwiczenia.Eventy;
 
 public class Program
 {
@@ -44,7 +45,10 @@ public class Program
         // 9. Projekt - Pomiary meteorologiczne
         //PomiaryMeteorologiczne.UruchomienieProgramu.Start();
 
-        //100 - Pojedyncze Cwiczenia --> delegaty
-        Pojedyncze_Cwiczenia.KlasaUruchomieniowaDlaPojedynczychProjektow.Main();
+        //10 - Pojedyncze Cwiczenia --> delegaty
+        //KlasaUruchomieniowaDlaPojedynczychProjektow.Main();
+
+        //11 - Pojedyncze Cwiczenia --> eventy
+        EventyKlasaUruchomieniowaOrazZadania.Main();
     }
 }

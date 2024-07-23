@@ -1,0 +1,5 @@
+C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.csproj.AssemblyReference.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.AssemblyInfoInputs.cache
+C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.AssemblyInfo.cs
+C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.csproj.CoreCompileInputs.cache

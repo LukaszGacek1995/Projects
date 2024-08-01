@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -232,6 +233,189 @@ namespace Pojedyncze_Cwiczenia.Eventy
         static void PowiadomoieniODwa(object sender, int e)
         {
             Console.WriteLine("Teraz jest liczba 2");
+        }
+    }
+
+    // ------------------------------------------------------------ Kolejne ćwiczenie eventy
+
+    class Counter5
+    {
+        public event EventHandler<int> CountChanged;
+        private int count;
+
+        public int Count
+        {
+            get { return count; }
+            private set
+            {
+                count = value;
+                OnCountChanged(count);
+            }
+        }
+
+        public void Increment()
+        {
+            Count++;
+        }
+
+        protected virtual void OnCountChanged(int newCount)
+        {
+            CountChanged?.Invoke(this, newCount);
+        }
+    }
+
+    class Program55
+    {
+        static void Main()
+        {
+            Counter5 counter = new Counter5();
+            counter.CountChanged += OnCountChanged;
+            counter.Increment();
+            counter.Increment();
+        }
+
+        static void OnCountChanged(object sender, int newCount)
+        {
+            Console.WriteLine($"Count is now: {newCount}");
+        }
+    }
+
+    //------------------------------------------------------------Kolejne ćwiczenie z eventami 
+    class ShoppingList
+    {
+        public List<string> items = new List<string>();
+
+        public void AddItem(string item)
+        {
+            items.Add(item);
+            Console.WriteLine($"Added {item} to the shopping list.");
+        }
+
+        public void RemoveItem(string item)
+        {
+            if (items.Remove(item))
+            {
+                Console.WriteLine($"Removed {item} from the shopping list.");
+            }
+            else
+            {
+                Console.WriteLine($"{item} not found in the shopping list.");
+            }
+        }
+
+        public void PrintList()
+        {
+            Console.WriteLine("Shopping List:");
+            foreach (var item in items)
+            {
+                Console.WriteLine($"- {item}");
+            }
+        }
+    }
+
+    
+    class Program7
+    {
+        public delegate void DelegatDlaKolejnegoZadaniaZLista();
+        public event DelegatDlaKolejnegoZadaniaZLista eventZadanieKolejne;
+        public void Uruchamianie7()
+        {
+            eventZadanieKolejne += PoinformowanieOObecnosciKonkretnegoTeksu;
+
+            ShoppingList shoppingList = new ShoppingList();
+            shoppingList.AddItem("Milk");
+            shoppingList.AddItem("Bread");
+            if(shoppingList.items.Contains("Bread"))
+            {
+                eventZadanieKolejne?.Invoke();
+            }
+            shoppingList.RemoveItem("Milk");
+            shoppingList.PrintList();
+        }
+
+        public void PoinformowanieOObecnosciKonkretnegoTeksu()
+        {
+            Console.WriteLine("Dodano element - wywołano event");
+        }
+    }
+
+    // --------------------------------------------------------- Kolejny przykład symulator gry
+    class Game
+    {
+        
+        public event EventHandler OnGryEvent;
+        public void Start()
+        {
+            Console.WriteLine("Game started.");
+            for (int i = 0; i < 5; i++)
+            {
+                System.Threading.Thread.Sleep(1000);
+                Console.WriteLine($"Playing... {i + 1} second(s)");
+            }
+            OnGryEvent?.Invoke(this, EventArgs.Empty);
+        }
+    }
+
+    class ProgramSymulator
+    {
+        public void InformujOZakonczeniu(object sender, EventArgs e)
+        {
+            Console.WriteLine("Game over.");
+        }
+        static void Main()
+        {
+            Game game = new Game();
+            ProgramSymulator programSymulator = new ProgramSymulator();
+
+            game.OnGryEvent += programSymulator.InformujOZakonczeniu;
+
+            game.Start();
+        }
+    }
+
+    //------------------------------------------------------- Kolejne Cw eventu
+
+    class FileMonitor
+    {
+        public  EventHandler<string> ecentFirtsExist;
+        public  EventHandler<string> ecentSecontExist;
+        public void Monitor(string path)
+        {
+
+
+            if (File.Exists(path))
+            {
+                ecentFirtsExist?.Invoke(this, path);
+
+            }
+            else
+            {
+                ecentSecontExist?.Invoke(this, path);
+            }
+        }
+
+        public  void PierwszaMetoda(object sender, string path)
+        {
+            Console.WriteLine($"{path} exists.");
+        }
+
+        public   void DrugaMetoda(object sender, string path)
+        {
+            Console.WriteLine($"{path} does not exist.");
+        }
+    }
+
+    class ProgramMonitorowanie
+    {
+       
+
+        static void Main()
+        {
+            FileMonitor monitor = new FileMonitor();
+           monitor.ecentFirtsExist += monitor.PierwszaMetoda;
+            monitor.ecentSecontExist += monitor.DrugaMetoda;
+
+            monitor.Monitor("example.txt");
         }
     }
 }

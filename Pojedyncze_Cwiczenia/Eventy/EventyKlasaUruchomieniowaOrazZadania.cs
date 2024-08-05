@@ -418,4 +418,139 @@ namespace Pojedyncze_Cwiczenia.Eventy
             monitor.Monitor("example.txt");
         }
     }
+    //---------------------------------------------------------------------
+    public class CounterEvent 
+    {
+        private int _count = 0;
+        public void Increment()
+        {
+            _count++;
+            Console.WriteLine($"Current count: {_count}");
+        }
+    }
+
+    public class ProgramEvent
+    {
+        public delegate void DelegatDoEventu();
+        public event DelegatDoEventu EventDoZAdania;
+        public  void Main()
+        {
+            CounterEvent counter = new CounterEvent();
+            EventDoZAdania += counter.Increment;
+
+            for (int i = 0; i < 5; i++)
+            {
+                ObslugaZdarzenia();
+            }
+        }
+
+        public void ObslugaZdarzenia ()
+        {
+            EventDoZAdania?.Invoke();
+        }
+    }
+
+    //-----------------------------------------------------------------------
+    public class Timer10
+    {
+
+
+        private bool _running = false;
+        Program10 program10 = new Program10();
+        public void Start()
+        {
+            _running = true;
+            while (_running)
+            {
+                Thread.Sleep(1000);
+                Tick();
+            }
+        }
+
+        public void Stop()
+        {
+            _running = false;
+        }
+
+        private void Tick()
+        {
+            Console.WriteLine("Tick");
+
+        }
+    }
+
+    public class Program10
+    {
+        //public delegate void Dellega();
+        public event EventHandler DeleagatDoTimer10;
+
+
+        Timer10 timer;
+        public void Main()
+        {
+             timer = new Timer10();
+
+            Thread timerThread = new Thread(timer.Start);
+            timerThread.Start();
+
+            DeleagatDoTimer10 += Zatrzymanie;
+
+            Thread.Sleep(5000);
+
+            DeleagatDoTimer10?.Invoke(this, EventArgs.Empty);
+
+            
+        }
+
+        public void Zatrzymanie(object sender, EventArgs e)
+        {
+            timer.Stop();
+        }
+    }
+
+    // -------------------------------------------------------------------- Kolejny przykład
+    public class TemperatureSensor
+    {
+        public event EventHandler PowiadomienieEventElo;
+
+        private double _temperature;
+      
+        public void SetTemperature(double temperature)
+        {
+            PowiadomienieEventElo += PowiadomienieUstawienieJeden;
+            PowiadomienieEventElo += PowiadomienieUstawienieDwa;
+
+
+            _temperature = temperature;
+            if (_temperature > 30)
+            {
+                PowiadomienieEventElo?.Invoke(this, EventArgs.Empty);
+            }
+            else
+            {
+                PowiadomienieEventElo?.Invoke(this, EventArgs.Empty);
+            }
+        }
+        public void PowiadomienieUstawienieJeden(Object sender, EventArgs e)
+        {
+            Console.WriteLine($"Warning: High temperature detected: {_temperature}°C");
+        }
+
+        public void PowiadomienieUstawienieDwa(Object sender, EventArgs s)
+        {
+            Console.WriteLine($"Temperatura poniżej 30 stopni {_temperature}°C");
+        }
+    }
+
+    public class ProgramDoKolejnego
+    {
+        public static void Main()
+        {
+            TemperatureSensor sensor = new TemperatureSensor();
+
+            
+            sensor.SetTemperature(25);
+            sensor.SetTemperature(35);
+        }
+    }
 }

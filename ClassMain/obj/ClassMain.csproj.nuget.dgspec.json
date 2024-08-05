@@ -11,7 +11,7 @@
         "projectName": "Autobus",
         "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Autobus\\Autobus.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Autobus\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Autobus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,7 +152,7 @@
         "projectName": "GrupowanieKontaktow",
         "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\GrupowanieKontaktow.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\GrupowanieKontaktow\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\GrupowanieKontaktow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,7 +207,7 @@
         "projectName": "Library",
         "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Library\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -317,7 +317,7 @@
         "projectName": "PomiaryMeteorologiczne",
         "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\PomiaryMeteorologiczne\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PomiaryMeteorologiczne\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -372,7 +372,7 @@
         "projectName": "PorządkowanieDomowejBiblioteki",
         "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\PorządkowanieDomowejBiblioteki.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\PorządkowanieDomowejBiblioteki\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\PorządkowanieDomowejBiblioteki\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -486,7 +486,7 @@
         "projectName": "Słownik",
         "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Słodnik\\Słownik.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Słodnik\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Słodnik\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -541,7 +541,7 @@
         "projectName": "WyscigBiedronek",
         "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\WyscigBiedronek\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\WyscigBiedronek\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -596,7 +596,7 @@
         "projectName": "Wyszukiwarka",
         "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj",
         "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\Source\\Repos\\Projects\\Wyszukiwarka\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Wyszukiwarka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",

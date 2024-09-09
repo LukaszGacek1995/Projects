@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -551,6 +552,174 @@ namespace Pojedyncze_Cwiczenia.Eventy
             
             sensor.SetTemperature(25);
             sensor.SetTemperature(35);
+        }
+    }
+
+    //---  ----------------------------------------- Kolejne ćwiczenie dlegaty
+    class ProgramDelegatKolejny
+    {
+        public delegate double DelegatDlaObliczenMatematycznych(double x, double y);
+
+        static double Add(double a, double b)
+        {
+            return a + b;
+        }
+
+        static double Subtract(double a, double b)
+        {
+            return a - b;
+        }
+
+        static double Multiply(double a, double b)
+        {
+            return a * b;
+        }
+
+        static double Divide(double a, double b)
+        {
+            if (b == 0)
+            {
+                Console.WriteLine("Error: Division by zero!");
+                return 0;
+            }
+            return a / b;
+        }
+
+        static void Main(string[] args)
+        {
+           
+            Console.WriteLine("Choose an operation:");
+            Console.WriteLine("1. Add");
+            Console.WriteLine("2. Subtract");
+            Console.WriteLine("3. Multiply");
+            Console.WriteLine("4. Divide");
+
+            int choice = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the first number:");
+            double num1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the second number:");
+            double num2 = double.Parse(Console.ReadLine());
+
+            double result = 0;
+
+            DelegatDlaObliczenMatematycznych del = null;
+
+            switch (choice)
+            {
+                case 1:
+                    del = new DelegatDlaObliczenMatematycznych(Add);
+                    break;
+                case 2:
+                    del = new DelegatDlaObliczenMatematycznych(Subtract);
+                    break;
+                case 3:
+                    del = new DelegatDlaObliczenMatematycznych(Multiply);
+                    break;
+                case 4:
+                    del = new DelegatDlaObliczenMatematycznych(Divide);
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    return;
+            }
+
+            if (del != null)
+            {
+                result = del(num1, num2);
+            }
+
+            Console.WriteLine("The result is: " + result);
+        }
+    }
+
+    //---------------- Kolejny Przykład z delegatem 
+    class ProgramFiltracja
+    {
+        public delegate bool DelegatDlaObliczeńMatematycznych(double x);
+        static bool CzyParzysta(double a)
+        {
+            return a % 2 == 0;
+        }
+
+        static bool CzyNieparzysta(double a)
+        {
+            return a % 2 != 0;
+        }
+
+        static bool CzyWiekszaNizSrednia(double a, double srednia)
+        {
+            return a > srednia;
+        }
+
+        static void FiltrujListe(List<double> liczby, string filtr)
+        {
+            List<double> przefiltrowaneLiczby = new List<double>();
+
+            DelegatDlaObliczeńMatematycznych delege1 = new DelegatDlaObliczeńMatematycznych(CzyParzysta);
+            DelegatDlaObliczeńMatematycznych delege2 = new DelegatDlaObliczeńMatematycznych(CzyNieparzysta);
+
+            double suma = 0;
+            foreach (var liczba in liczby)
+            {
+                suma += liczba;
+            }
+            double srednia = suma / liczby.Count;
+
+            foreach (var liczba in liczby)
+            {
+                if (filtr == "parzysta" && delege1(liczba))
+                {
+                    przefiltrowaneLiczby.Add(liczba);
+                }
+                else if (filtr == "nieparzysta" && delege2(liczba))
+                {
+                    przefiltrowaneLiczby.Add(liczba);
+                }
+                else if (filtr == "wiekszaNizSrednia" && CzyWiekszaNizSrednia(liczba, srednia))
+                {
+                    przefiltrowaneLiczby.Add(liczba);
+                }
+            }
+
+            Console.WriteLine("Filtered numbers:");
+            foreach (var liczba in przefiltrowaneLiczby)
+            {
+                Console.WriteLine(liczba);
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            List<double> liczby = new List<double> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            Console.WriteLine("Choose a filter:");
+            Console.WriteLine("1. Even numbers");
+            Console.WriteLine("2. Odd numbers");
+            Console.WriteLine("3. Numbers greater than the average");
+
+            int choice = int.Parse(Console.ReadLine());
+
+            string filtr = "";
+
+            switch (choice)
+            {
+                case 1:
+                    filtr = "parzysta";
+                    break;
+                case 2:
+                    filtr = "nieparzysta";
+                    break;
+                case 3:
+                    filtr = "wiekszaNizSrednia";
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    return;
+            }
+
+            FiltrujListe(liczby, filtr);
         }
     }
 }

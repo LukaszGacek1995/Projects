@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {}
+    "C:\\Users\\Łukasz\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj": {
+    "C:\\Users\\Łukasz\\source\\repos\\Projects\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz\\source\\repos\\Projects\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj",
-        "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\obj\\",
+        "projectPath": "C:\\Users\\Łukasz\\source\\repos\\Projects\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
+    "C:\\Users\\Łukasz\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
         "projectName": "SzyfrMatematyczny",
-        "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
-        "packagesPath": "C:\\Users\\Łukasz Gacek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\SzyfrMatematyczny\\obj\\",
+        "projectPath": "C:\\Users\\Łukasz\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfrMatematyczny.csproj",
+        "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\SzyfrMatematyczny\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Łukasz Gacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,14 +83,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj": {
-                "projectPath": "C:\\Users\\Łukasz Gacek\\source\\repos\\Projects\\Library\\Library.csproj"
+              "C:\\Users\\Łukasz\\source\\repos\\Projects\\Library\\Library.csproj": {
+                "projectPath": "C:\\Users\\Łukasz\\source\\repos\\Projects\\Library\\Library.csproj"
               }
             }
           }
@@ -93,6 +100,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -114,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

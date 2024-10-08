@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz\\source\\repos\\Projects\\Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj": {}
+    "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz\\source\\repos\\Projects\\Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj": {
+    "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz\\source\\repos\\Projects\\Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj",
         "projectName": "Pojedyncze_Cwiczenia",
-        "projectPath": "C:\\Users\\Łukasz\\source\\repos\\Projects\\Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj",
+        "projectPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj",
         "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Pojedyncze_Cwiczenia\\obj\\",
         "projectStyle": "PackageReference",

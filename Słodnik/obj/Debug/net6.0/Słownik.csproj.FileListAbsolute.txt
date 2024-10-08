@@ -22,3 +22,15 @@ C:\Users\Łukasz Gacek\source\repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.
 C:\Users\Łukasz Gacek\source\repos\Projects\Słodnik\obj\Debug\net6.0\refint\Słownik.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Słodnik\obj\Debug\net6.0\ref\Słownik.dll
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\bin\Debug\net6.0\Słownik.deps.json
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\bin\Debug\net6.0\Słownik.dll
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\bin\Debug\net6.0\Słownik.pdb
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.AssemblyInfo.cs
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.sourcelink.json
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.dll
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\refint\Słownik.dll
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\Słownik.pdb
+C:\Users\Łukasz\Source\Repos\Projects\Słodnik\obj\Debug\net6.0\ref\Słownik.dll

@@ -22,3 +22,15 @@ C:\Users\Łukasz Gacek\source\repos\Projects\Autobus\obj\Debug\net6.0\Autobus.dl
 C:\Users\Łukasz Gacek\source\repos\Projects\Autobus\obj\Debug\net6.0\refint\Autobus.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\Autobus\obj\Debug\net6.0\Autobus.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\Autobus\obj\Debug\net6.0\ref\Autobus.dll
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\bin\Debug\net6.0\Autobus.deps.json
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\bin\Debug\net6.0\Autobus.dll
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\bin\Debug\net6.0\Autobus.pdb
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\Autobus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\Autobus.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\Autobus.AssemblyInfo.cs
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\Autobus.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\Autobus.sourcelink.json
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\Autobus.dll
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\refint\Autobus.dll
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\Autobus.pdb
+C:\Users\Łukasz\Source\Repos\Projects\Autobus\obj\Debug\net6.0\ref\Autobus.dll

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Wyszukiwarka
-build_property.ProjectDir = C:\Users\Łukasz\source\repos\Projects\Wyszukiwarka\
+build_property.ProjectDir = C:\Users\Łukasz\Source\Repos\Projects\Wyszukiwarka\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -28,3 +28,25 @@ C:\Users\Łukasz Gacek\source\repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\
 C:\Users\Łukasz Gacek\source\repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.genruntimeconfig.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\ref\SzyfrMatematyczny.dll
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\Library.deps.json
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\Library.runtimeconfig.json
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\Library.exe
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\SzyfrMatematyczny.exe
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\SzyfrMatematyczny.deps.json
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\SzyfrMatematyczny.runtimeconfig.json
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\SzyfrMatematyczny.dll
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\SzyfrMatematyczny.pdb
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\Library.dll
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\bin\Debug\net6.0\Library.pdb
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.csproj.AssemblyReference.cache
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.AssemblyInfo.cs
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.sourcelink.json
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMat.ADA15B22.Up2Date
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.dll
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\refint\SzyfrMatematyczny.dll
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.pdb
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\SzyfrMatematyczny.genruntimeconfig.cache
+C:\Users\Łukasz\Source\Repos\Projects\SzyfrMatematyczny\obj\Debug\net6.0\ref\SzyfrMatematyczny.dll

@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B094C7D8-FC57-49DC-ACB7-E6EEAB85A749}|Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\pojedyncze_cwiczenia\\eventy\\eventyklasauruchomieniowaorazzadania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B094C7D8-FC57-49DC-ACB7-E6EEAB85A749}|Pojedyncze_Cwiczenia\\Pojedyncze_Cwiczenia.csproj|solutionrelative:pojedyncze_cwiczenia\\eventy\\eventyklasauruchomieniowaorazzadania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52270C59-40E3-4491-BC1A-91D919E40FA9}|GrupowanieKontaktow\\GrupowanieKontaktow.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\grupowaniekontaktow\\klasauruchomieniowa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52270C59-40E3-4491-BC1A-91D919E40FA9}|GrupowanieKontaktow\\GrupowanieKontaktow.csproj|solutionrelative:grupowaniekontaktow\\klasauruchomieniowa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52270C59-40E3-4491-BC1A-91D919E40FA9}|GrupowanieKontaktow\\GrupowanieKontaktow.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\grupowaniekontaktow\\zasilaniedanych.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52270C59-40E3-4491-BC1A-91D919E40FA9}|GrupowanieKontaktow\\GrupowanieKontaktow.csproj|solutionrelative:grupowaniekontaktow\\zasilaniedanych.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3BFB68-716A-40F4-AC57-E4538A0EC972}|ClassMain\\ClassMain.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\classmain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3BFB68-716A-40F4-AC57-E4538A0EC972}|ClassMain\\ClassMain.csproj|solutionrelative:classmain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52270C59-40E3-4491-BC1A-91D919E40FA9}|GrupowanieKontaktow\\GrupowanieKontaktow.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\grupowaniekontaktow\\weryfikacjaoraztworzeniegrup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52270C59-40E3-4491-BC1A-91D919E40FA9}|GrupowanieKontaktow\\GrupowanieKontaktow.csproj|solutionrelative:grupowaniekontaktow\\weryfikacjaoraztworzeniegrup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1715451-73D0-4388-8760-634D96A7FAE2}|Wyszukiwarka\\Wyszukiwarka.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\wyszukiwarka\\mechanikasprawdzania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1715451-73D0-4388-8760-634D96A7FAE2}|Wyszukiwarka\\Wyszukiwarka.csproj|solutionrelative:wyszukiwarka\\mechanikasprawdzania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\pomiarymeteorologiczne\\zwracanieklasabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|solutionrelative:pomiarymeteorologiczne\\zwracanieklasabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\pomiarymeteorologiczne\\zasilaniedanymiwej\u015Bciowymi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|solutionrelative:pomiarymeteorologiczne\\zasilaniedanymiwej\u015Bciowymi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DAA087-0858-45D1-B1B2-69542D5D2727}|Library\\Library.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\library\\mechanizmsprawdzaniapozycjilogika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47DAA087-0858-45D1-B1B2-69542D5D2727}|Library\\Library.csproj|solutionrelative:library\\mechanizmsprawdzaniapozycjilogika.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DAA087-0858-45D1-B1B2-69542D5D2727}|Library\\Library.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\library\\uruchamianieprogramu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47DAA087-0858-45D1-B1B2-69542D5D2727}|Library\\Library.csproj|solutionrelative:library\\uruchamianieprogramu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\pomiarymeteorologiczne\\wprowadzanieklasabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|solutionrelative:pomiarymeteorologiczne\\wprowadzanieklasabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\pomiarymeteorologiczne\\uruchomienieprogramu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|solutionrelative:pomiarymeteorologiczne\\uruchomienieprogramu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B49DA400-1ACF-4705-BB6A-BD71E3D00B8A}|SzyfrMatematyczny\\SzyfrMatematyczny.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\szyfrmatematyczny\\szyfmatematycznyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B49DA400-1ACF-4705-BB6A-BD71E3D00B8A}|SzyfrMatematyczny\\SzyfrMatematyczny.csproj|solutionrelative:szyfrmatematyczny\\szyfmatematycznyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\pomiarymeteorologiczne\\przeprowadzobliczenia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F508229C-3E21-4BBC-B51F-2A716A661C3D}|PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj|solutionrelative:pomiarymeteorologiczne\\przeprowadzobliczenia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1715451-73D0-4388-8760-634D96A7FAE2}|Wyszukiwarka\\Wyszukiwarka.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\wyszukiwarka\\klasastartowaprogramu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1715451-73D0-4388-8760-634D96A7FAE2}|Wyszukiwarka\\Wyszukiwarka.csproj|solutionrelative:wyszukiwarka\\klasastartowaprogramu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DAA087-0858-45D1-B1B2-69542D5D2727}|Library\\Library.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\library\\parametrywejsciowe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47DAA087-0858-45D1-B1B2-69542D5D2727}|Library\\Library.csproj|solutionrelative:library\\parametrywejsciowe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DAA087-0858-45D1-B1B2-69542D5D2727}|Library\\Library.csproj|c:\\users\\\u0142ukasz\\source\\repos\\projects\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47DAA087-0858-45D1-B1B2-69542D5D2727}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,53 +77,178 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EventyKlasaUruchomieniowaOrazZadania.cs",
-              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Pojedyncze_Cwiczenia\\Eventy\\EventyKlasaUruchomieniowaOrazZadania.cs",
-              "RelativeDocumentMoniker": "Pojedyncze_Cwiczenia\\Eventy\\EventyKlasaUruchomieniowaOrazZadania.cs",
-              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Pojedyncze_Cwiczenia\\Eventy\\EventyKlasaUruchomieniowaOrazZadania.cs",
-              "RelativeToolTip": "Pojedyncze_Cwiczenia\\Eventy\\EventyKlasaUruchomieniowaOrazZadania.cs",
-              "ViewState": "AgIAALYCAAAAAAAAAAAAwL0CAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\ClassMain\\Program.cs",
+              "RelativeDocumentMoniker": "ClassMain\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\ClassMain\\Program.cs",
+              "RelativeToolTip": "ClassMain\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T16:04:10.448Z",
+              "WhenOpened": "2024-10-08T17:37:45.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KlasaUruchomieniowa.cs",
-              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\GrupowanieKontaktow\\KlasaUruchomieniowa.cs",
-              "RelativeDocumentMoniker": "GrupowanieKontaktow\\KlasaUruchomieniowa.cs",
-              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\GrupowanieKontaktow\\KlasaUruchomieniowa.cs",
-              "RelativeToolTip": "GrupowanieKontaktow\\KlasaUruchomieniowa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T16:03:25.659Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ZasilanieDanych.cs",
-              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\GrupowanieKontaktow\\ZasilanieDanych.cs",
-              "RelativeDocumentMoniker": "GrupowanieKontaktow\\ZasilanieDanych.cs",
-              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\GrupowanieKontaktow\\ZasilanieDanych.cs",
-              "RelativeToolTip": "GrupowanieKontaktow\\ZasilanieDanych.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwFgAAAABAAAA",
+              "Title": "MechanikaSprawdzania.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Wyszukiwarka\\MechanikaSprawdzania.cs",
+              "RelativeDocumentMoniker": "Wyszukiwarka\\MechanikaSprawdzania.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Wyszukiwarka\\MechanikaSprawdzania.cs",
+              "RelativeToolTip": "Wyszukiwarka\\MechanikaSprawdzania.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T16:03:25.743Z"
+              "WhenOpened": "2024-10-02T04:22:14.922Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ZwracanieKlasaBase.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\ZwracanieKlasaBase.cs",
+              "RelativeDocumentMoniker": "PomiaryMeteorologiczne\\ZwracanieKlasaBase.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\ZwracanieKlasaBase.cs",
+              "RelativeToolTip": "PomiaryMeteorologiczne\\ZwracanieKlasaBase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:40:31.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ZasilanieDanymiWej\u015Bciowymi.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\ZasilanieDanymiWej\u015Bciowymi.cs",
+              "RelativeDocumentMoniker": "PomiaryMeteorologiczne\\ZasilanieDanymiWej\u015Bciowymi.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\ZasilanieDanymiWej\u015Bciowymi.cs",
+              "RelativeToolTip": "PomiaryMeteorologiczne\\ZasilanieDanymiWej\u015Bciowymi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:40:29.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MechanizmSprawdzaniaPozycjiLogika.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Library\\MechanizmSprawdzaniaPozycjiLogika.cs",
+              "RelativeDocumentMoniker": "Library\\MechanizmSprawdzaniaPozycjiLogika.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Library\\MechanizmSprawdzaniaPozycjiLogika.cs",
+              "RelativeToolTip": "Library\\MechanizmSprawdzaniaPozycjiLogika.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T04:19:34.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WeryfikacjaOrazTworzenieGrup.cs",
               "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\GrupowanieKontaktow\\WeryfikacjaOrazTworzenieGrup.cs",
               "RelativeDocumentMoniker": "GrupowanieKontaktow\\WeryfikacjaOrazTworzenieGrup.cs",
               "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\GrupowanieKontaktow\\WeryfikacjaOrazTworzenieGrup.cs",
               "RelativeToolTip": "GrupowanieKontaktow\\WeryfikacjaOrazTworzenieGrup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T16:03:25.743Z"
+              "WhenOpened": "2024-10-05T08:43:18.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UruchamianieProgramu.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Library\\UruchamianieProgramu.cs",
+              "RelativeDocumentMoniker": "Library\\UruchamianieProgramu.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Library\\UruchamianieProgramu.cs",
+              "RelativeToolTip": "Library\\UruchamianieProgramu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:14:36.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WprowadzanieKlasaBase.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\WprowadzanieKlasaBase.cs",
+              "RelativeDocumentMoniker": "PomiaryMeteorologiczne\\WprowadzanieKlasaBase.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\WprowadzanieKlasaBase.cs",
+              "RelativeToolTip": "PomiaryMeteorologiczne\\WprowadzanieKlasaBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:40:27.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UruchomienieProgramu.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\UruchomienieProgramu.cs",
+              "RelativeDocumentMoniker": "PomiaryMeteorologiczne\\UruchomienieProgramu.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\UruchomienieProgramu.cs",
+              "RelativeToolTip": "PomiaryMeteorologiczne\\UruchomienieProgramu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:40:24.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SzyfMatematycznyProgram.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfMatematycznyProgram.cs",
+              "RelativeDocumentMoniker": "SzyfrMatematyczny\\SzyfMatematycznyProgram.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\SzyfrMatematyczny\\SzyfMatematycznyProgram.cs",
+              "RelativeToolTip": "SzyfrMatematyczny\\SzyfMatematycznyProgram.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:45:24.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PrzeprowadzObliczenia.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PrzeprowadzObliczenia.cs",
+              "RelativeDocumentMoniker": "PomiaryMeteorologiczne\\PrzeprowadzObliczenia.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PrzeprowadzObliczenia.cs",
+              "RelativeToolTip": "PomiaryMeteorologiczne\\PrzeprowadzObliczenia.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:40:21.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KlasaStartowaProgramu.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Wyszukiwarka\\KlasaStartowaProgramu.cs",
+              "RelativeDocumentMoniker": "Wyszukiwarka\\KlasaStartowaProgramu.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Wyszukiwarka\\KlasaStartowaProgramu.cs",
+              "RelativeToolTip": "Wyszukiwarka\\KlasaStartowaProgramu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:46:20.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParametryWejsciowe.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Library\\ParametryWejsciowe.cs",
+              "RelativeDocumentMoniker": "Library\\ParametryWejsciowe.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Library\\ParametryWejsciowe.cs",
+              "RelativeToolTip": "Library\\ParametryWejsciowe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:40:09.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "Library\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0141ukasz\\source\\repos\\Projects\\Library\\Program.cs",
+              "RelativeToolTip": "Library\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T17:41:03.365Z"
             }
           ]
         }

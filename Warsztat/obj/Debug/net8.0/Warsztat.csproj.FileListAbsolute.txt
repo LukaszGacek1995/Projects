@@ -1,0 +1,5 @@
+C:\Users\Łukasz\Source\Repos\Projects\Warsztat\obj\Debug\net8.0\Warsztat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz\Source\Repos\Projects\Warsztat\obj\Debug\net8.0\Warsztat.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Warsztat\obj\Debug\net8.0\Warsztat.AssemblyInfo.cs
+C:\Users\Łukasz\Source\Repos\Projects\Warsztat\obj\Debug\net8.0\Warsztat.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Warsztat\obj\Debug\net8.0\Warsztat.sourcelink.json

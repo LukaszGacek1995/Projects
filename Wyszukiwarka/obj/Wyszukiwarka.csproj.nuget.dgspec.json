@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz\\source\\repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj": {}
+    "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz\\source\\repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj": {
+    "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz\\source\\repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj",
         "projectName": "Wyszukiwarka",
-        "projectPath": "C:\\Users\\Łukasz\\source\\repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj",
+        "projectPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Wyszukiwarka\\Wyszukiwarka.csproj",
         "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\Wyszukiwarka\\obj\\",
         "projectStyle": "PackageReference",

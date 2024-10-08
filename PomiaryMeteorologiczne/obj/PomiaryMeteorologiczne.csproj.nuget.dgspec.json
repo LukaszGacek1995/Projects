@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj": {}
+    "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj": {
+    "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj",
         "projectName": "PomiaryMeteorologiczne",
-        "projectPath": "C:\\Users\\Łukasz\\source\\repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj",
+        "projectPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\PomiaryMeteorologiczne\\PomiaryMeteorologiczne.csproj",
         "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\PomiaryMeteorologiczne\\obj\\",
         "projectStyle": "PackageReference",

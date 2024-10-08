@@ -22,3 +22,15 @@ C:\Users\Łukasz Gacek\source\repos\Projects\WyscigBiedronek\obj\Debug\net6.0\Wy
 C:\Users\Łukasz Gacek\source\repos\Projects\WyscigBiedronek\obj\Debug\net6.0\refint\WyscigBiedronek.dll
 C:\Users\Łukasz Gacek\source\repos\Projects\WyscigBiedronek\obj\Debug\net6.0\WyscigBiedronek.pdb
 C:\Users\Łukasz Gacek\source\repos\Projects\WyscigBiedronek\obj\Debug\net6.0\ref\WyscigBiedronek.dll
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\bin\Debug\net6.0\WyscigBiedronek.deps.json
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\bin\Debug\net6.0\WyscigBiedronek.dll
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\bin\Debug\net6.0\WyscigBiedronek.pdb
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\WyscigBiedronek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\WyscigBiedronek.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\WyscigBiedronek.AssemblyInfo.cs
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\WyscigBiedronek.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\WyscigBiedronek.sourcelink.json
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\WyscigBiedronek.dll
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\refint\WyscigBiedronek.dll
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\WyscigBiedronek.pdb
+C:\Users\Łukasz\Source\Repos\Projects\WyscigBiedronek\obj\Debug\net6.0\ref\WyscigBiedronek.dll

@@ -3,3 +3,15 @@ C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6
 C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.AssemblyInfoInputs.cache
 C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.AssemblyInfo.cs
 C:\Users\Łukasz Gacek\source\repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\bin\Debug\net6.0\Pojedyncze_Cwiczenia.deps.json
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\bin\Debug\net6.0\Pojedyncze_Cwiczenia.dll
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\bin\Debug\net6.0\Pojedyncze_Cwiczenia.pdb
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.AssemblyInfo.cs
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.sourcelink.json
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.dll
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\refint\Pojedyncze_Cwiczenia.dll
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\Pojedyncze_Cwiczenia.pdb
+C:\Users\Łukasz\Source\Repos\Projects\Pojedyncze_Cwiczenia\obj\Debug\net6.0\ref\Pojedyncze_Cwiczenia.dll

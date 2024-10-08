@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {}
+    "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
+    "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
         "projectName": "WyscigBiedronek",
-        "projectPath": "C:\\Users\\Łukasz\\source\\repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
+        "projectPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\WyscigBiedronek\\WyscigBiedronek.csproj",
         "packagesPath": "C:\\Users\\Łukasz\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Łukasz\\Source\\Repos\\Projects\\WyscigBiedronek\\obj\\",
         "projectStyle": "PackageReference",
